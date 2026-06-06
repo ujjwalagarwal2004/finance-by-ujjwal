@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance by Ujjwal</title>
+  <meta name="description" content="In-depth analysis of Indian markets, global financial markets, and current affairs — written simply for everyone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0e1a;
+      --bg2: #111827;
+      --bg3: #1a2235;
+      --border: #1e2d45;
+      --text: #e2e8f0;
+      --text-muted: #8899aa;
+      --text-dim: #556070;
+      --gold: #f4b942;
+      --gold-dim: #c8922a;
+      --green: #22c55e;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --accent: #f4b942;
+      --card-hover: #141e30;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .logo-icon {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--gold), #e8a020);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 800; color: #0a0e1a;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .logo-text span { color: var(--gold); }
+    .nav-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 14px;
+      width: 260px;
+    }
+    .nav-search input {
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-size: 14px;
+      width: 100%;
+    }
+    .nav-search input::placeholder { color: var(--text-dim); }
+    .search-icon { color: var(--text-dim); font-size: 14px; }
+    .nav-cats {
+      display: flex;
+      gap: 4px;
+    }
+    .nav-cat {
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+    .nav-cat:hover { color: var(--text); background: var(--bg3); }
+    .nav-cat.active {
+      color: var(--gold);
+      background: rgba(244,185,66,0.08);
+      border-color: rgba(244,185,66,0.2);
+    }
+
+    /* ── HERO ── */
+    #hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 24px 0;
+      display: none;
+    }
+    .hero-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .hero-card:hover { border-color: rgba(244,185,66,0.3); }
+    .hero-content { padding: 48px 48px 48px 48px; }
+    .hero-cat-badge {
+      display: inline-block;
+      background: rgba(244,185,66,0.12);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 16px;
+      color: #f0f4f8;
+    }
+    .hero-excerpt {
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+    .hero-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+    .hero-meta .read-time {
+      display: flex; align-items: center; gap: 5px;
+      color: var(--gold);
+      font-weight: 500;
+    }
+    .hero-visual {
+      background: linear-gradient(135deg, #0d1c35 0%, #1a2d50 50%, #0f1e3a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-chart-svg { width: 85%; opacity: 0.9; }
+
+    /* ── TICKER ── */
+    .ticker-bar {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 0;
+      overflow: hidden;
+      margin: 32px 0 0;
+    }
+    .ticker-track {
+      display: flex;
+      gap: 48px;
+      animation: ticker 30s linear infinite;
+      width: max-content;
+    }
+    .ticker-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .ticker-name { color: var(--text-muted); font-weight: 500; }
+    .ticker-val { font-weight: 600; color: var(--text); }
+    .ticker-chg.up { color: var(--green); }
+    .ticker-chg.dn { color: var(--red); }
+    @keyframes ticker {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* ── SECTION HEADER ── */
+    .section-header {
+      max-width: 1200px;
+      margin: 48px auto 0;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-title::before {
+      content: '';
+      display: block;
+      width: 4px; height: 22px;
+      background: var(--gold);
+      border-radius: 2px;
+    }
+    .section-count {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    /* ── ARTICLE GRID ── */
+    #articles-grid {
+      max-width: 1200px;
+      margin: 24px auto 0;
+      padding: 0 24px 64px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .article-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .article-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(244,185,66,0.25);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    .card-top {
+      height: 6px;
+      background: linear-gradient(90deg, var(--gold), #e8a020);
+    }
+    .card-top.indian { background: linear-gradient(90deg, #ff9933, #ff6600); }
+    .card-top.global { background: linear-gradient(90deg, #3b82f6, #1d4ed8); }
+    .card-top.affairs { background: linear-gradient(90deg, #22c55e, #16a34a); }
+    .card-top.crypto { background: linear-gradient(90deg, #a855f7, #7c3aed); }
+    .card-top.economy { background: linear-gradient(90deg, #f4b942, #c8922a); }
+    .card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+    .card-cat {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .cat-indian { color: #ff9933; }
+    .cat-global { color: var(--blue); }
+    .cat-affairs { color: var(--green); }
+    .cat-crypto { color: #a855f7; }
+    .cat-economy { color: var(--gold); }
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #e8edf2;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-excerpt {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+    .card-date { display: flex; align-items: center; gap: 5px; }
+    .card-read { color: var(--gold); font-weight: 500; }
+
+    /* ── EMPTY / LOADING ── */
+    .empty-state {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-dim);
+    }
+    .empty-state h3 { font-size: 20px; color: var(--text-muted); margin-bottom: 8px; }
+
+    /* ── ARTICLE PAGE ── */
+    #article-view {
+      display: none;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .article-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 32px;
+      transition: color 0.2s;
+    }
+    .article-back:hover { color: var(--gold); }
+    .article-header-cat {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .article-header-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #f0f4f8;
+      margin-bottom: 16px;
+    }
+    .article-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 13px;
+      color: var(--text-dim);
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .article-header-meta .read-badge {
+      background: rgba(244,185,66,0.1);
+      color: var(--gold);
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .article-body {
+      font-size: 16px;
+      line-height: 1.85;
+      color: #c8d4e0;
+    }
+    .article-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      color: #e8edf2;
+      margin: 40px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .article-body h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin: 28px 0 12px;
+    }
+    .article-body p { margin-bottom: 20px; }
+    .article-body strong { color: var(--text); font-weight: 600; }
+    .article-body em { color: var(--gold); font-style: normal; font-weight: 500; }
+    .article-body ul, .article-body ol {
+      margin: 16px 0 20px 20px;
+    }
+    .article-body li { margin-bottom: 8px; color: #b8c8d8; }
+    .article-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 12px 20px;
+      background: rgba(244,185,66,0.05);
+      border-radius: 0 8px 8px 0;
+      margin: 24px 0;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .article-body .highlight-box {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .article-body .highlight-box h4 {
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    /* Glossary */
+    .glossary-section {
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 2px solid var(--border);
+    }
+    .glossary-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .glossary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+    .glossary-item {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+    }
+    .glossary-term {
+      font-weight: 700;
+      color: var(--gold);
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .glossary-def {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Sources */
+    .sources-section {
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+    .sources-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+    .sources-list { list-style: none; }
+    .sources-list li {
+      font-size: 13px;
+      color: var(--text-dim);
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .sources-list li::before {
+      content: '↗';
+      color: var(--gold);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .sources-list a { color: var(--blue); }
+    .sources-list a:hover { text-decoration: underline; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .footer-logo span { color: var(--gold); }
+    .footer-tagline {
+      color: var(--text-dim);
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+    .footer-note {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── NO RESULTS ── */
+    #no-results {
+      display: none;
+      grid-column: 1/-1;
+      padding: 60px;
+      text-align: center;
+      color: var(--text-dim);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      #articles-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-card { grid-template-columns: 1fr; }
+      .hero-visual { height: 200px; }
+      .hero-content { padding: 28px; }
+      .hero-title { font-size: 24px; }
+      .glossary-grid { grid-template-columns: 1fr; }
+      .nav-cats { display: none; }
+    }
+    @media (max-width: 600px) {
+      #articles-grid { grid-template-columns: 1fr; }
+      .nav-search { width: 180px; }
+      .article-header-title { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo" onclick="showHome()">
+      <div class="logo-icon">F</div>
+      <div class="logo-text">Finance <span>by Ujjwal</span></div>
+    </div>
+    <div class="nav-search">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" placeholder="Search articles…" oninput="filterArticles()" />
+    </div>
+    <div class="nav-cats">
+      <div class="nav-cat active" onclick="filterByCategory('all', this)">All</div>
+      <div class="nav-cat" onclick="filterByCategory('Indian Markets', this)">India</div>
+      <div class="nav-cat" onclick="filterByCategory('Global Markets', this)">Global</div>
+      <div class="nav-cat" onclick="filterByCategory('Economy', this)">Economy</div>
+      <div class="nav-cat" onclick="filterByCategory('Current Affairs', this)">Affairs</div>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME VIEW -->
+<div id="home-view">
+  <!-- Hero -->
+  <div id="hero">
+    <div class="hero-card" id="hero-card"></div>
+  </div>
+
+  <!-- Ticker -->
+  <div class="ticker-bar">
+    <div class="ticker-track" id="ticker">
+      <div class="ticker-item"><span class="ticker-name">NIFTY 50</span><span class="ticker-val">24,346</span><span class="ticker-chg up">▲ +0.83%</span></div>
+      <div class="ticker-item"><span class="ticker-name">SENSEX</span><span class="ticker-val">80,132</span><span class="ticker-chg up">▲ +0.71%</span></div>
+      <div class="ticker-item"><span class="ticker-name">USD/INR</span><span class="ticker-val">83.52</span><span class="ticker-chg dn">▼ -0.12%</span></div>
+      <div class="ticker-item"><span class="ticker-name">S&amp;P 500</span><span class="ticker-val">5,282</span><span class="ticker-chg up">▲ +0.34%</span></div>
+      <div class="ticker-item"><span class="ticker-name">GOLD</span><span class="ticker-val">$2,341</span><span class="ticker-chg up">▲ +0.58%</span></div>
+      <div class="ticker-item"><span class="ticker-name">CRUDE OIL</span><span class="ticker-val">$78.4</span><span class="ticker-chg dn">▼ -0.22%</span></div>
+      <div class="ticker-item"><span class="ticker-name">BTC</span><span class="ticker-val">$67,200</span><span class="ticker-chg up">▲ +1.1%</span></div>
+      <div class="ticker-item"><span class="ticker-name">NASDAQ</span><span class="ticker-val">16,742</span><span class="ticker-chg up">▲ +0.56%</span></div>
+      <!-- duplicate for seamless loop -->
+      <div class="ticker-item"><span class="ticker-name">NIFTY 50</span><span class="ticker-val">24,346</span><span class="ticker-chg up">▲ +0.83%</span></div>
+      <div class="ticker-item"><span class="ticker-name">SENSEX</span><span class="ticker-val">80,132</span><span class="ticker-chg up">▲ +0.71%</span></div>
+      <div class="ticker-item"><span class="ticker-name">USD/INR</span><span class="ticker-val">83.52</span><span class="ticker-chg dn">▼ -0.12%</span></div>
+      <div class="ticker-item"><span class="ticker-name">S&amp;P 500</span><span class="ticker-val">5,282</span><span class="ticker-chg up">▲ +0.34%</span></div>
+      <div class="ticker-item"><span class="ticker-name">GOLD</span><span class="ticker-val">$2,341</span><span class="ticker-chg up">▲ +0.58%</span></div>
+      <div class="ticker-item"><span class="ticker-name">CRUDE OIL</span><span class="ticker-val">$78.4</span><span class="ticker-chg dn">▼ -0.22%</span></div>
+      <div class="ticker-item"><span class="ticker-name">BTC</span><span class="ticker-val">$67,200</span><span class="ticker-chg up">▲ +1.1%</span></div>
+      <div class="ticker-item"><span class="ticker-name">NASDAQ</span><span class="ticker-val">16,742</span><span class="ticker-chg up">▲ +0.56%</span></div>
+    </div>
+  </div>
+
+  <!-- Section header -->
+  <div class="section-header">
+    <div class="section-title" id="section-title">Latest Articles</div>
+    <div class="section-count" id="article-count"></div>
+  </div>
+
+  <!-- Grid -->
+  <div id="articles-grid">
+    <div class="empty-state">
+      <h3>Loading articles…</h3>
+      <p>Fetching the latest analysis for you.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ARTICLE VIEW -->
+<div id="article-view"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Finance <span>by Ujjwal</span></div>
+    <div class="footer-tagline">Markets made simple — Indian &amp; Global finance, explained for everyone.</div>
+    <div class="footer-note">
+      New articles published daily. All analysis is for informational purposes only and does not constitute financial advice.
+    </div>
+  </div>
+</footer>
+
+<script>
+  let allArticles = [];
+  let activeCategory = 'all';
+
+  const catColorMap = {
+    'Indian Markets': { cls: 'cat-indian', top: 'indian', badge: 'rgba(255,153,51,0.12)', badgeText: '#ff9933' },
+    'Global Markets': { cls: 'cat-global', top: 'global', badge: 'rgba(59,130,246,0.12)', badgeText: '#3b82f6' },
+    'Economy':        { cls: 'cat-economy', top: 'economy', badge: 'rgba(244,185,66,0.12)', badgeText: '#f4b942' },
+    'Current Affairs':{ cls: 'cat-affairs', top: 'affairs', badge: 'rgba(34,197,94,0.12)', badgeText: '#22c55e' },
+    'Cryptocurrency': { cls: 'cat-crypto', top: 'crypto', badge: 'rgba(168,85,247,0.12)', badgeText: '#a855f7' },
+  };
+
+  function getCatMeta(cat) {
+    return catColorMap[cat] || { cls: 'cat-economy', top: 'economy', badge: 'rgba(244,185,66,0.12)', badgeText: '#f4b942' };
+  }
+
+  function formatDate(dateStr) {
+    const d = new Date(dateStr);
+    return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  async function loadArticles() {
+    try {
+      const r = await fetch('articles.json?t=' + Date.now());
+      const data = await r.json();
+      allArticles = data.articles.sort((a,b) => new Date(b.date) - new Date(a.date));
+      renderHero(allArticles[0]);
+      renderGrid(allArticles);
+    } catch(e) {
+      document.getElementById('articles-grid').innerHTML = `
+        <div class="empty-state">
+          <h3>No articles yet</h3>
+          <p>The first article will appear here once published.</p>
+        </div>`;
+    }
+  }
+
+  function renderHero(article) {
+    if (!article) return;
+    const hero = document.getElementById('hero');
+    const card = document.getElementById('hero-card');
+    const cm = getCatMeta(article.category);
+    card.innerHTML = `
+      <div class="hero-content">
+        <div class="hero-cat-badge">${article.category}</div>
+        <h1 class="hero-title">${article.title}</h1>
+        <p class="hero-excerpt">${article.excerpt}</p>
+        <div class="hero-meta">
+          <span>📅 ${formatDate(article.date)}</span>
+          <span class="read-time">⏱ ${article.readTime} read</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg class="hero-chart-svg" viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#f4b942" stop-opacity="0.4"/>
+              <stop offset="100%" stop-color="#f4b942" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path d="M0,120 L30,100 L60,110 L90,80 L120,70 L150,85 L180,55 L210,65 L240,40 L270,50 L300,30" fill="none" stroke="#f4b942" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M0,120 L30,100 L60,110 L90,80 L120,70 L150,85 L180,55 L210,65 L240,40 L270,50 L300,30 L300,160 L0,160 Z" fill="url(#chartGrad)"/>
+          <circle cx="300" cy="30" r="4" fill="#f4b942"/>
+        </svg>
+      </div>
+    `;
+    card.onclick = () => showArticle(article.id);
+    hero.style.display = 'block';
+  }
+
+  function renderGrid(articles) {
+    const grid = document.getElementById('articles-grid');
+    document.getElementById('article-count').textContent = `${articles.length} article${articles.length !== 1 ? 's' : ''}`;
+
+    if (!articles.length) {
+      grid.innerHTML = `<div id="no-results" style="display:block;grid-column:1/-1;padding:60px;text-align:center;color:#556070"><h3 style="color:#8899aa;margin-bottom:8px">No articles found</h3><p>Try a different search or category.</p></div>`;
+      return;
+    }
+
+    const skip = activeCategory === 'all' && !document.getElementById('search-input').value ? 1 : 0;
+    const toShow = skip ? articles.slice(1) : articles;
+
+    if (!toShow.length) {
+      grid.innerHTML = `<div style="grid-column:1/-1;padding:60px;text-align:center;color:#556070">Only one article in this category so far — check back tomorrow!</div>`;
+      return;
+    }
+
+    grid.innerHTML = toShow.map(a => {
+      const cm = getCatMeta(a.category);
+      return `
+      <div class="article-card" onclick="showArticle('${a.id}')">
+        <div class="card-top ${cm.top}"></div>
+        <div class="card-body">
+          <div class="card-cat ${cm.cls}">${a.category}</div>
+          <div class="card-title">${a.title}</div>
+          <div class="card-excerpt">${a.excerpt}</div>
+          <div class="card-footer">
+            <span class="card-date">📅 ${formatDate(a.date)}</span>
+            <span class="card-read">⏱ ${a.readTime}</span>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  function showArticle(id) {
+    const article = allArticles.find(a => a.id === id);
+    if (!article) return;
+    const cm = getCatMeta(article.category);
+
+    const glossaryHtml = article.glossary && article.glossary.length ? `
+      <div class="glossary-section">
+        <div class="glossary-title">📖 Glossary</div>
+        <div class="glossary-grid">
+          ${article.glossary.map(g => `
+            <div class="glossary-item">
+              <div class="glossary-term">${g.term}</div>
+              <div class="glossary-def">${g.definition}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>` : '';
+
+    const sourcesHtml = article.sources && article.sources.length ? `
+      <div class="sources-section">
+        <div class="sources-title">Sources &amp; Further Reading</div>
+        <ul class="sources-list">
+          ${article.sources.map(s => `<li>${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>` : s.name}</li>`).join('')}
+        </ul>
+      </div>` : '';
+
+    document.getElementById('article-view').innerHTML = `
+      <div class="article-back" onclick="showHome()">← Back to all articles</div>
+      <div class="article-header-cat" style="background:${cm.badge};color:${cm.badgeText}">${article.category}</div>
+      <h1 class="article-header-title">${article.title}</h1>
+      <div class="article-header-meta">
+        <span>📅 ${formatDate(article.date)}</span>
+        <span class="read-badge">⏱ ${article.readTime} read</span>
+        <span>✍️ Ujjwal</span>
+      </div>
+      <div class="article-body">${article.content}</div>
+      ${glossaryHtml}
+      ${sourcesHtml}
+    `;
+
+    document.getElementById('home-view').style.display = 'none';
+    document.getElementById('article-view').style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.title = article.title + ' | Finance by Ujjwal';
+  }
+
+  function showHome() {
+    document.getElementById('home-view').style.display = 'block';
+    document.getElementById('article-view').style.display = 'none';
+    document.title = 'Finance by Ujjwal';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function filterByCategory(cat, el) {
+    activeCategory = cat;
+    document.getElementById('search-input').value = '';
+    document.querySelectorAll('.nav-cat').forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+    document.getElementById('section-title').textContent = cat === 'all' ? 'Latest Articles' : cat;
+
+    const filtered = cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat);
+    renderHero(filtered[0]);
+    renderGrid(filtered);
+  }
+
+  function filterArticles() {
+    const q = document.getElementById('search-input').value.toLowerCase().trim();
+    const base = activeCategory === 'all' ? allArticles : allArticles.filter(a => a.category === activeCategory);
+    if (!q) { renderGrid(base); return; }
+    const filtered = base.filter(a =>
+      a.title.toLowerCase().includes(q) ||
+      a.excerpt.toLowerCase().includes(q) ||
+      (a.tags && a.tags.some(t => t.toLowerCase().includes(q)))
+    );
+    renderGrid(filtered);
+  }
+
+  loadArticles();
+</script>
+</body>
+</html>
