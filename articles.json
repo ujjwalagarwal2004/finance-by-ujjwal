@@ -1,6 +1,68 @@
 {
   "articles": [
     {
+      "id": "art-032",
+      "title": "While India Cuts Rates, Europe Is Hiking. Here's What's Going On.",
+      "slug": "ecb-rate-hike-june-2026-europe-inflation-explained",
+      "date": "2026-06-05",
+      "category": "Global Markets",
+      "readTime": "6 min",
+      "excerpt": "The European Central Bank is expected to raise interest rates on June 11 — even as the RBI and the US Fed have been cutting. Europe is fighting a different battle: an energy-driven inflation surge sparked by the Middle East conflict. Here's the full story.",
+      "tags": [
+        "ECB",
+        "Europe",
+        "interest rates",
+        "inflation",
+        "global markets",
+        "euro"
+      ],
+      "content": "<p>Here's something that would have seemed impossible three years ago: in June 2026, India is cutting interest rates, America is holding after its own cuts, and Europe is <em>raising</em> rates. Three of the world's biggest economies — moving in three different directions at the same time.</p>\n<p>The European Central Bank (ECB) meets on June 11, and markets are pricing a 98% probability of a rate hike. Not a small one — a 25 basis point increase that would take the ECB's key rate to 2.25%. After that, two more hikes are expected before the year ends. What is happening in Europe, and why does it matter to the rest of the world — including India?</p>\n\n<h2>Who Is the ECB and What Does It Do?</h2>\n<p>The European Central Bank is to Europe what the RBI is to India — the institution that controls interest rates and manages inflation for the 20 countries that use the euro (the Eurozone). These include Germany, France, Italy, Spain, and 16 others. Just as the RBI sets the repo rate for India, the ECB sets benchmark rates for the entire Eurozone — affecting mortgages in Madrid, business loans in Munich, and savings accounts in Milan simultaneously.</p>\n<p>Christine Lagarde, a French economist and former IMF chief, has led the ECB since 2019. She's the person who will step to the podium on June 11 and announce the decision.</p>\n\n<h2>Why Is Europe Raising Rates Now?</h2>\n<p>The short answer: the Middle East war has made energy brutally expensive for Europe, and that's pushing inflation back up at exactly the wrong moment.</p>\n<p>Europe is far more dependent on imported energy than India or the US. After Russia's invasion of Ukraine in 2022, Europe spent years scrambling to replace Russian gas with alternatives — Liquefied Natural Gas from the US, renewables, nuclear restarts. By 2025, it had largely succeeded, and inflation had fallen back toward the ECB's 2% target. The ECB began cutting rates. Everyone exhaled.</p>\n<p>Then the 2026 West Asia conflict changed the equation. The war raised fears about the Strait of Hormuz — the narrow waterway through which 20% of the world's oil flows. Energy prices spiked. Natural gas prices rose sharply. And Europe, which still relies heavily on gas for heating and industry, felt it acutely. France's inflation rate jumped to 2.8% in May — above the 2% target. Germany and Italy saw similar moves. The ECB had a problem.</p>\n\n<div class='highlight-box'><h4>ECB — June 2026 Snapshot</h4>Expected rate after June hike: 2.25%<br>Total hikes expected in 2026: 3<br>France inflation (May 2026): 2.8%<br>ECB inflation target: 2.0%<br>ECB meeting date: June 11, 2026</div>\n\n<h2>Wasn't Europe Just Cutting Rates?</h2>\n<p>Yes — and that's what makes this so striking. In 2024 and early 2025, the ECB was cutting rates to support a sluggish European economy. Growth in Germany (Europe's largest economy) had stalled. Manufacturing was contracting. The ECB was trying to stimulate things by making borrowing cheaper.</p>\n<p>Now it's reversing course. The April 2026 meeting — where the ECB held rates unchanged — was described internally as a \"close call.\" Several ECB board members said they \"would not have opposed raising rates\" even then. The energy shock has proved more persistent than expected, and the ECB has concluded that waiting longer risks letting inflation become entrenched.</p>\n<p>This kind of policy U-turn is painful — it signals that the earlier optimism about inflation being defeated was premature.</p>\n\n<h2>What This Means for Europe's Households and Businesses</h2>\n<p>For Europeans with mortgages — particularly the millions with variable-rate home loans — higher rates mean higher monthly payments. In countries like Spain and Portugal, where variable-rate mortgages are common, a 25bps hike translates directly and quickly into higher EMIs. For businesses borrowing to invest or expand, credit becomes more expensive, which can slow hiring and growth.</p>\n<p>The ECB is essentially accepting short-term economic pain (slower growth, higher borrowing costs) to prevent the longer-term pain of entrenched inflation. It's the same trade-off every central bank faces — just at a different moment in the cycle than India or the US.</p>\n\n<h2>How This Affects India</h2>\n<p>You might wonder: why should an Indian care about European interest rates? Three reasons:</p>\n<p><strong>The rupee and capital flows:</strong> When European rates rise, the euro strengthens relative to other currencies — including the rupee. This affects trade competitiveness and the broader emerging market environment. Higher rates in developed markets can pull global capital away from emerging markets like India.</p>\n<p><strong>Export impact:</strong> Europe is India's second-largest trading partner. If higher rates slow European economic growth and consumer spending, demand for Indian exports — pharmaceuticals, IT services, textiles, gems — weakens. Indian IT companies with significant European revenue exposure are watching this closely.</p>\n<p><strong>Global inflation signal:</strong> The ECB hiking while others hold or cut is a reminder that the global inflation problem isn't fully solved. The Middle East conflict is the common thread — it's the same oil price shock that's also complicating the RBI's rate-cut plans and keeping the US Fed cautious.</p>\n\n<h2>Will the Hikes Work?</h2>\n<p>The honest answer is: it depends on how long the energy shock lasts. If the Middle East conflict de-escalates and oil prices fall back, European inflation will cool on its own and the ECB may be forced to reverse these hikes within a year — a repeat of the painful U-turns we've seen from central banks globally since 2022.</p>\n<p>If the conflict persists and energy prices stay elevated, the ECB's hikes will be necessary medicine — slowing demand enough to prevent a wage-price spiral where workers demand higher salaries to cover energy bills, which then pushes prices up further.</p>\n<p>The ECB, like every central bank right now, is navigating a world where geopolitics has become the most important variable in economics — and geopolitics is the one thing no monetary policy tool can directly control.</p>",
+      "glossary": [
+        {
+          "term": "ECB (European Central Bank)",
+          "definition": "The central bank for the 20 countries that use the euro. Sets interest rates for the entire Eurozone — the equivalent of what the RBI does for India."
+        },
+        {
+          "term": "Eurozone",
+          "definition": "The group of 20 European Union countries that share the euro as their currency — including Germany, France, Italy, and Spain. One central bank sets rates for all of them."
+        },
+        {
+          "term": "Basis Points (bps)",
+          "definition": "A unit for measuring interest rate changes. 25 basis points = 0.25%. A hike of 25bps from 2.0% to 2.25% is considered a standard-sized move."
+        },
+        {
+          "term": "Wage-Price Spiral",
+          "definition": "A dangerous inflation cycle where rising prices prompt workers to demand higher wages, which raises business costs, which pushes prices up further. Central banks hike rates to break this cycle early."
+        },
+        {
+          "term": "Strait of Hormuz",
+          "definition": "A narrow waterway between Iran and the Arabian Peninsula through which about 20% of the world's oil passes daily. Any disruption sends global energy prices sharply higher."
+        },
+        {
+          "term": "Variable-Rate Mortgage",
+          "definition": "A home loan where the interest rate changes with market rates — unlike a fixed-rate loan. When central banks hike, variable-rate borrowers feel it immediately in their monthly payments."
+        },
+        {
+          "term": "LNG (Liquefied Natural Gas)",
+          "definition": "Natural gas cooled to liquid form for shipping. After cutting Russian gas dependence, Europe became a major LNG importer — making it vulnerable to any disruption in global gas supply."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ECB — Monetary Policy Decisions, April 2026",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+        },
+        {
+          "name": "Bloomberg — ECB to Hike Rates Twice in 2026 as Inflation Jumps",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-11/ecb-to-hike-rates-twice-in-2026-as-inflation-jumps-survey-shows"
+        },
+        {
+          "name": "Euronews — ECB Rate Hike in Focus as Eurozone Big Four Report Stubbornly High Inflation",
+          "url": "https://www.euronews.com/business/2026/05/29/ecb-rate-hike-in-focus-as-eurozones-big-four-report-stubbornly-high-inflation"
+        }
+      ]
+    },
+    {
       "id": "art-031",
       "title": "93% of Options Traders Lose Money. SEBI Just Changed the Rules — Here's Why It Matters",
       "slug": "sebi-fo-crackdown-options-trading-losses-2026",
