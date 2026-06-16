@@ -1,6 +1,612 @@
 {
   "articles": [
     {
+      "id": "art-034",
+      "title": "America Added 172,000 Jobs in May — And That's Surprisingly Bad News for India",
+      "slug": "us-jobs-report-may-2026-172k-india-impact-rate-cuts",
+      "date": "2026-06-06",
+      "category": "Global Markets",
+      "readTime": "6 min",
+      "excerpt": "The US created 172,000 jobs in May — nearly double what economists expected. Sounds great, right? For America, maybe. For India and every emerging market, a strong US jobs number is a double-edged sword that delays rate cuts, strengthens the dollar, and pulls capital away from markets like ours.",
+      "tags": [
+        "US jobs report",
+        "Non-Farm Payrolls",
+        "Fed rate cuts",
+        "dollar",
+        "emerging markets",
+        "rupee"
+      ],
+      "content": "<p>Every first Friday of the month, the US government releases one of the most watched numbers in global finance — the Non-Farm Payrolls (NFP) report. This single data point, which tells the world how many jobs America created in the previous month, can move stock markets in Tokyo, Mumbai, and London within seconds of its release. On June 6, 2026, the May jobs report landed with a bang: 172,000 new jobs, versus the 85,000 that economists had predicted. Almost exactly double expectations.</p>\n\n<p>For most people, \"America created lots of jobs\" sounds like good news. And for Americans, it largely is. But for India and every emerging market, the picture is far more complicated — and potentially painful.</p>\n\n<h2>Why Does the US Jobs Report Matter to India?</h2>\n<p>To understand why, you need to follow a chain of logic that connects American employment to your Indian stock portfolio, the price of your EMI, and the value of the rupee in your wallet.</p>\n\n<p>The chain works like this: More US jobs → workers have more money to spend → spending drives inflation → the US Federal Reserve (America's central bank) has less reason to cut interest rates → US interest rates stay higher for longer → US bonds become more attractive → global investors move money from emerging markets like India into US assets → the rupee weakens → Indian stocks fall → the RBI has less room to cut rates.</p>\n\n<p>That's a lot of steps, but they all follow logically from each other. And they all flowed from that 172,000 number on June 6.</p>\n\n<div class='highlight-box'><h4>US Jobs Report — May 2026</h4>\nJobs added: 172,000 (vs. 85,000 expected)<br>\nUnemployment rate: 4.3% (unchanged)<br>\nBiggest gains: Leisure & hospitality (+70K), Local govt (+55K), Healthcare (+35K)<br>\nPrevious month (April): 179,000 (revised up)<br>\nMarket reaction: Dollar strengthened, gold fell, EM currencies under pressure</div>\n\n<h2>What the Numbers Actually Say</h2>\n<p>The 172,000 jobs added in May followed an upwardly revised 179,000 in April. Two consecutive months of strong job creation — well above what the US economy needs to absorb new workers entering the workforce (generally considered around 100,000–120,000/month) — tells the Fed that the US economy is running hot. Unemployment stayed at 4.3%, which is still historically low.</p>\n\n<p>The sectors driving growth were telling: leisure and hospitality (restaurants, hotels, tourism) added 70,000 jobs. This is a classic consumer spending signal — people are still eating out, travelling, and spending freely. Healthcare added 35,000, which reflects both aging demographics and sustained demand. These are not sectors that slow quickly.</p>\n\n<h2>The Fed's Dilemma</h2>\n<p>The US Federal Reserve, which has been cautiously cutting rates since late 2025, now faces an uncomfortable question: with the economy still adding jobs at this pace and inflation still at 4.2%, is it too early to keep cutting rates?</p>\n\n<p>The Fed cut rates by 25 basis points in March 2026, but the strong May jobs data has caused markets to sharply reduce expectations for further cuts in 2026. Before June 6, markets were pricing in two more cuts before year-end. After the report, that dropped to one — and some analysts are now saying there may be no more cuts at all in 2026.</p>\n\n<p>This matters enormously because the entire global financial system is calibrated around US interest rates. When US rates stay high, US government bonds (called Treasuries) pay attractive returns — often 5%+ risk-free. That pulls money away from riskier assets elsewhere, including Indian stocks.</p>\n\n<h2>The India Impact</h2>\n<p>Indian markets felt the ripple effects on June 6 even before the Monday crash triggered by Israel-Iran. The dollar strengthened against the rupee, touching 95.4 on June 6 — already near historic lows for the rupee. A weaker rupee makes India's imports more expensive (including the oil that's already painfully pricey at $93/barrel) and can add to inflation pressures.</p>\n\n<p>FII (Foreign Institutional Investor) outflows from India, which have already exceeded ₹2.67 lakh crore in 2026, are partly explained by exactly this dynamic: US yields stay high, so foreign fund managers park more in US bonds and less in Indian equities.</p>\n\n<p>For Indian IT companies that earn in dollars and report in rupees, a weak rupee is actually a tailwind — their dollar earnings convert to more rupees. But for importers, airlines, and oil-dependent businesses, it's a headwind.</p>\n\n<h2>The Bigger Picture</h2>\n<p>The irony of the US jobs report is this: a healthy American economy, which should theoretically be good for global growth, creates a financial conditions tightening that hurts emerging markets. It's not about America being bad for the world — it's about the mechanics of global capital flows and the dollar's dominance in international finance.</p>\n\n<p>India is not helpless in this situation. Strong domestic growth, a healthy banking sector, and the RBI's dollar reserves (currently above $685 billion) give India buffers that smaller emerging markets lack. But the constraint is real: as long as US rates stay high and the dollar stays strong, capital flows to India will face headwinds — regardless of how good India's own fundamentals are.</p>\n\n<p>The May US jobs report is a reminder that in a connected global economy, what happens in Washington DC's labour market shows up in Mumbai's stock prices within hours.</p>",
+      "glossary": [
+        {
+          "term": "Non-Farm Payrolls (NFP)",
+          "definition": "A monthly US government report showing how many new jobs were created outside of the farming sector. It's one of the most watched economic indicators globally because it reflects the health of the US economy."
+        },
+        {
+          "term": "Federal Reserve (The Fed)",
+          "definition": "America's central bank — the equivalent of India's RBI. It controls US interest rates and has enormous influence on global financial markets because the US dollar is the world's reserve currency."
+        },
+        {
+          "term": "US Treasuries",
+          "definition": "Government bonds issued by the US government. Considered virtually risk-free, they're the global benchmark for 'safe' returns. When Treasury yields rise, money flows into them from riskier assets like emerging market stocks."
+        },
+        {
+          "term": "Basis Points (bps)",
+          "definition": "1 basis point = 0.01%. So a 25bps rate cut means rates fall by 0.25 percentage points."
+        },
+        {
+          "term": "Emerging Markets",
+          "definition": "Countries with developing economies and growing financial markets — including India, Brazil, Indonesia, and others. They typically offer higher returns than developed markets but with more risk and volatility."
+        },
+        {
+          "term": "FII Outflows",
+          "definition": "When foreign institutional investors (large global fund managers) sell Indian stocks and take the money out of India. This weakens the rupee and puts downward pressure on the Nifty and Sensex."
+        }
+      ],
+      "sources": [
+        {
+          "name": "US BLS — Employment Situation May 2026",
+          "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+        },
+        {
+          "name": "Trading Economics — US Non-Farm Payrolls",
+          "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+        },
+        {
+          "name": "Share India — FII Outflows in India 2026",
+          "url": "https://www.shareindia.com/knowledge-center/market-insight/fii-outflows-in-india-2026-reasons-impact-on-stock-market-investor-strategy"
+        }
+      ]
+    },
+    {
+      "id": "art-035",
+      "title": "Petrol Is ₹103. Crude Oil Is $93. Why Aren't Prices Higher — And Who's Paying the Difference?",
+      "slug": "india-petrol-price-freeze-omc-losses-crude-oil-2026",
+      "date": "2026-06-07",
+      "category": "Indian Economy",
+      "readTime": "6 min",
+      "excerpt": "India's petrol price at your local pump has barely moved since early 2024 — even as crude oil surged from $65 to $93 a barrel. The math doesn't add up. Someone is absorbing that loss. That someone is BPCL, HPCL, and IOC — and they're bleeding ₹18 per litre on every litre of petrol they sell. Here's the full story.",
+      "tags": [
+        "petrol price",
+        "diesel price",
+        "OMC",
+        "BPCL",
+        "HPCL",
+        "crude oil",
+        "fuel subsidy",
+        "Indian economy"
+      ],
+      "content": "<p>Walk into any petrol pump in India this week and you'll pay around ₹103.54 for a litre of petrol in Delhi. That number hasn't changed much in months — and that stability might actually be the most important untold financial story in India right now.</p>\n\n<p>Because behind that stable pump price is a crisis quietly building inside three of India's largest companies: BPCL (Bharat Petroleum), HPCL (Hindustan Petroleum), and IOC (Indian Oil Corporation). Together, these state-owned oil marketing companies — called OMCs — are estimated to be losing ₹18 per litre on petrol and ₹35 per litre on diesel. Every single day. At current volumes of over 100 million litres sold daily, these losses run into thousands of crores every month.</p>\n\n<h2>Why Are Fuel Prices Frozen?</h2>\n<p>In India, petrol and diesel prices are technically deregulated — meaning the government says OMCs can set prices based on market rates. But in practice, the government has strong influence over when and whether prices are actually changed, especially before elections or during periods of economic stress.</p>\n\n<p>The last significant price revision was in early 2024. Since then, crude oil has gone from around $65-70 per barrel to $93 as of this week — a jump of over 30%. But pump prices haven't moved. The reason is political: a fuel price hike is deeply unpopular. It affects every Indian directly — from the auto-rickshaw driver to the middle-class family budgeting monthly fuel costs. The government has effectively decided that OMCs will absorb the pain rather than pass it to consumers.</p>\n\n<div class='highlight-box'><h4>The OMC Loss Equation — June 2026</h4>\nCrude oil price: ~$93/barrel<br>\nOMC under-recovery on petrol: ~₹18/litre<br>\nOMC under-recovery on diesel: ~₹35/litre<br>\nIndia's daily fuel consumption: ~100 million litres<br>\nEstimated daily OMC losses: ₹3,000–5,000 crore<br>\nPetrol price in Delhi: ₹103.54/litre (unchanged for months)</div>\n\n<h2>What Is an Under-Recovery?</h2>\n<p>An \"under-recovery\" is the gap between what an OMC spends to procure, refine, and transport fuel, versus what it sells the fuel for. If it costs ₹121 to bring a litre of petrol to your pump but you're selling it at ₹103, you have an under-recovery of ₹18. The company doesn't technically \"lose\" ₹18 in accounting terms — but in economic terms, it's selling below cost. That gap has to be funded somehow.</p>\n\n<p>Historically, the government compensated OMCs through direct subsidies — cash transfers or oil bonds. But in 2026, with the government also managing fiscal pressures from the West Asia conflict (higher import costs, defence spending, infrastructure commitments), direct compensation is uncertain and delayed.</p>\n\n<h2>Why This Matters to Investors</h2>\n<p>BPCL and HPCL are listed companies on the BSE and NSE. Their stocks have been under significant pressure in 2026 precisely because of this dynamic. When margins are being crushed by a government-directed price freeze, earnings fall, dividends are at risk, and the investment case weakens.</p>\n\n<p>But here's the paradox: many analysts argue that OMC stocks are actually a high-risk, high-reward bet right now. If the government eventually allows a price hike — as many expect it will, given the unsustainability of current losses — OMC stocks could rally sharply. A ₹5/litre price hike would dramatically improve their economics overnight.</p>\n\n<h2>When Will Prices Actually Rise?</h2>\n<p>That's the question everyone is asking. A retail price hike of ₹4–5 per litre was reportedly under active consideration by the government in May 2026, but no decision had been confirmed as of this weekend. The political calculus is delicate: the government must weigh the risk of voter backlash against the financial health of three systemically important companies.</p>\n\n<p>There's also a secondary concern: if fuel prices rise sharply, it will push India's CPI inflation higher, potentially complicating the RBI's ability to continue cutting interest rates. The RBI has already revised inflation forecasts upward and cut its GDP forecast — a fuel price hike would add further pressure.</p>\n\n<h2>What About LPG?</h2>\n<p>The same story plays out with LPG (cooking gas). The 14.2 kg cylinder that households use for cooking is also sold below cost. The government subsidises LPG prices through a mechanism where a cash transfer goes directly to consumers' bank accounts (PM Ujjwala scheme), but the pricing has still not kept pace with international LPG prices, which have risen in tandem with crude oil.</p>\n\n<p>The bottom line: the price stability you see at the petrol pump isn't free. It's being paid for by bleeding balance sheets at India's oil marketing companies, and eventually — either through a price hike, a government bailout, or both — someone will settle that tab. The only question is when and in what form.</p>",
+      "glossary": [
+        {
+          "term": "OMC (Oil Marketing Companies)",
+          "definition": "State-owned companies that refine crude oil and sell petrol, diesel, and LPG in India. The three main ones are Indian Oil Corporation (IOC), Bharat Petroleum (BPCL), and Hindustan Petroleum (HPCL)."
+        },
+        {
+          "term": "Under-Recovery",
+          "definition": "The difference between what it costs an OMC to produce/procure fuel and the price at which it sells it. If costs are ₹121 but the selling price is ₹103, the under-recovery is ₹18 per litre."
+        },
+        {
+          "term": "Deregulated Prices",
+          "definition": "In theory, petrol and diesel prices in India are 'market-linked' — OMCs can revise them. In practice, the government exerts political pressure on when revisions happen, especially before elections."
+        },
+        {
+          "term": "Fiscal Deficit",
+          "definition": "The gap between what the government earns (taxes) and what it spends. If the government compensates OMCs for their losses, that adds to the fiscal deficit."
+        },
+        {
+          "term": "CPI Inflation",
+          "definition": "Consumer Price Index inflation — the measure of how prices of everyday goods (food, fuel, clothing) change over time. A fuel price hike directly increases CPI."
+        },
+        {
+          "term": "PM Ujjwala Scheme",
+          "definition": "A government program that provides free LPG connections to households below the poverty line, and includes direct cash subsidies for LPG cylinder refills."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Outlook Business — Fuel Price Freeze Impact on OMCs",
+          "url": "https://www.outlookbusiness.com/economy-and-policy/fuel-price-freeze-end-india-crude-oil-price-hike-impact"
+        },
+        {
+          "name": "Discovery Alert — India Fuel Price Hike 2026",
+          "url": "https://discoveryalert.com.au/india-fuel-price-hike-petrol-diesel-lpg-2026/"
+        },
+        {
+          "name": "Goodreturns — Petrol Price Today June 2026",
+          "url": "https://www.goodreturns.in/petrol-price.html"
+        }
+      ]
+    },
+    {
+      "id": "art-036",
+      "title": "After the Crash: What Monday's 924-Point Fall Is Really Telling You About the Market",
+      "slug": "sensex-recovery-market-analysis-june-9-2026",
+      "date": "2026-06-09",
+      "category": "Indian Markets",
+      "readTime": "5 min",
+      "excerpt": "Monday's 924-point Sensex crash spooked a lot of investors. But market falls triggered by geopolitical events have a very specific pattern — and understanding that pattern is the difference between panic-selling at the bottom and buying when fear is highest.",
+      "tags": [
+        "Sensex",
+        "market recovery",
+        "buy the dip",
+        "geopolitics",
+        "investor strategy",
+        "Nifty"
+      ],
+      "content": "<p>Tuesday morning, June 9, Indian markets opened with a modest recovery after Monday's brutal 924-point Sensex fall. The Nifty was back above 23,100, and by afternoon it had clawed back nearly half of Monday's losses. The India VIX, which had spiked to 18.44 on Monday, pulled back toward 16. The worst — at least for now — appeared to be over.</p>\n\n<p>But the more interesting question isn't what happened on Tuesday morning. It's what Monday's crash was actually telling you — and what history says you should do next.</p>\n\n<h2>The Anatomy of a Geopolitical Crash</h2>\n<p>Not all market falls are the same. A crash driven by earnings disappointments, a credit crisis, or a banking scare has different recovery characteristics than a crash triggered by geopolitical events. Understanding the difference is crucial for making sensible decisions.</p>\n\n<p>Geopolitical crashes — like Monday's fall driven by Israel-Iran escalation — tend to share a specific pattern. The initial fall is sharp and fast, often overshooting the \"fair value\" impact because fear amplifies selling. Investors sell first and ask questions later. Institutional investors who have risk limits trigger automatic selling when prices fall by a certain amount, compounding the decline. Retail investors, seeing red everywhere, add to the panic.</p>\n\n<p>But then the dust settles. Analysts model out the actual economic impact — not the fear-driven version, but the mathematical one. And in many cases, the reality turns out to be less bad than the fear. Markets partially recover, sometimes within days.</p>\n\n<div class='highlight-box'><h4>Historical Geopolitical Crashes — Recovery Time</h4>\n9/11 attacks (2001): Nifty fell 15% → recovered fully in 3 months<br>\nIraq War (2003): Markets fell 10% → recovered in 6 weeks<br>\nRussia-Ukraine War (Feb 2022): Nifty fell 8% → recovered in 4 months<br>\nTypical geopolitical shock recovery: 1–6 months<br>\nException: shocks that trigger sustained economic disruption (1973 Oil Crisis)</div>\n\n<h2>What Makes the Current Situation Different</h2>\n<p>The reason this particular geopolitical event deserves more attention than most is the oil dimension. Most geopolitical shocks — a terrorist attack, a regional conflict in a small economy — don't have lasting macroeconomic consequences for India. The Israel-Iran conflict is different because it's directly connected to oil supply, which India cannot avoid importing.</p>\n\n<p>If oil stays above $90 for months, Indian inflation rises, the RBI can't cut rates as aggressively, corporate profit margins (especially in import-dependent industries) get squeezed, and the rupee stays weak. These are real, sustained economic headwinds — not just sentiment-driven fear.</p>\n\n<p>So the recovery from Monday's crash depends heavily on one variable: what happens to oil prices from here. If a ceasefire emerges in the Middle East, oil could fall back below $80 quickly, and markets could recover sharply. If the conflict escalates, the oil price stays elevated, and markets will continue to face pressure.</p>\n\n<h2>What Smart Investors Do After Geopolitical Crashes</h2>\n<p>The historical evidence on this is fairly consistent. Markets overreact to geopolitical events in the short term. For investors with a 1–3 year horizon, geopolitical dips have consistently been buying opportunities — provided the underlying economy remains fundamentally sound, which India's does.</p>\n\n<p>The sectors that tend to recover fastest after oil-driven selloffs are financial services (banks, NBFCs) and domestic consumption plays (consumer goods, retail). These businesses' underlying fundamentals aren't materially changed by a temporary oil price spike. The sectors that remain vulnerable are airlines, paint companies, tyre manufacturers, and logistics — all of which have direct oil exposure that takes time to cycle through earnings.</p>\n\n<p>For the SIP investor: nothing has changed. Keep your monthly investment running. In fact, this is exactly the scenario where SIPs earn their keep — you buy more units at lower prices, which boosts your long-term returns when prices recover.</p>\n\n<p>For someone sitting on idle cash wondering whether to invest: no one can time a bottom perfectly. But history strongly suggests that buying during periods of elevated VIX (fear index) tends to produce better 12-month returns than buying when markets are at all-time highs and VIX is low.</p>\n\n<p>Monday's crash was frightening in the moment. In the rearview mirror, it may well look like exactly what it was: a fear-driven overshoot in a fundamentally intact market.</p>",
+      "glossary": [
+        {
+          "term": "India VIX",
+          "definition": "The Volatility Index — measures how much fear or uncertainty exists in markets. A spike in VIX (like Monday's 17% jump) indicates high fear. VIX tends to fall as markets stabilise."
+        },
+        {
+          "term": "Buy the Dip",
+          "definition": "An investment strategy of purchasing assets after they fall in price, betting that the fall is temporary and prices will recover. Works well in fundamentally sound markets, but risky in genuine economic downturns."
+        },
+        {
+          "term": "Overshoot",
+          "definition": "When markets fall (or rise) more than economic fundamentals justify, usually driven by emotional panic (or greed). These overshoots tend to partially correct once the initial emotion passes."
+        },
+        {
+          "term": "SIP (Systematic Investment Plan)",
+          "definition": "Investing a fixed amount regularly into mutual funds regardless of market conditions. When markets fall, you buy more units for the same money, which improves long-term returns."
+        },
+        {
+          "term": "Risk Limits",
+          "definition": "Rules that institutional investors (mutual funds, insurance companies) must follow — e.g., if a portfolio falls 5%, they must sell. When many institutions hit these limits simultaneously, it amplifies market falls."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Business Standard — Market Live June 8, 2026",
+          "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-june-8-nse-bse-sensex-today-nifty-gift-nifty-iran-israel-attack-us-iran-deal-brent-crude-ipo-126060800078_1.html"
+        },
+        {
+          "name": "5paisa — Market Outlook June 2026",
+          "url": "https://www.5paisa.com/blog/nifty-outlook"
+        }
+      ]
+    },
+    {
+      "id": "art-037",
+      "title": "US Inflation Is Still at 4.2% — And That's a Problem India Can't Ignore",
+      "slug": "us-cpi-may-2026-4-percent-fed-rate-cuts-india-impact",
+      "date": "2026-06-10",
+      "category": "Global Markets",
+      "readTime": "6 min",
+      "excerpt": "America's Consumer Price Index for May came in at 4.2% year-on-year — well above the Fed's 2% target, and driven by shelter, transport, and energy costs. The data, released today, effectively kills hopes of a Fed rate cut before September. Here's what that means for India.",
+      "tags": [
+        "US CPI",
+        "inflation",
+        "Federal Reserve",
+        "Fed rate cuts",
+        "rupee",
+        "interest rates",
+        "global markets"
+      ],
+      "content": "<p>The US Bureau of Labor Statistics released America's Consumer Price Index (CPI) data for May 2026 today, June 10 — and the number that came out has complicated life for central bankers from Washington to Mumbai. US inflation in May was 4.2% year-on-year. Core inflation (stripping out food and energy) was 2.9%. Both numbers are higher than hoped for, and both are well above the Federal Reserve's 2% target.</p>\n\n<p>Markets immediately recalibrated their expectations. Before this data, there was already scepticism about whether the Fed would cut rates again in 2026. After it, that scepticism deepened into near-certainty: the Fed is done cutting for now, and the only question is whether it will be forced to hold all the way through the year.</p>\n\n<h2>What Drove the 4.2% Number?</h2>\n<p>Breaking down the May CPI tells a story of an economy where inflation has become stubborn in specific, persistent categories:</p>\n\n<p><strong>Shelter (housing costs): +3.4%.</strong> This is the single biggest weight in the US CPI basket, and it's the most persistent category. American rents and home prices remain elevated. This component alone adds approximately 1.1–1.2 percentage points to the headline number — meaning even if everything else were flat, shelter costs alone would put inflation near 1.2%.</p>\n\n<p><strong>Transport services: +4.1%.</strong> Car insurance, air travel, and maintenance costs have surged. Airlines are passing on higher fuel costs (Brent crude at $93+) to consumers. Car insurance has risen because repair costs — driven by supply chain issues and expensive EV parts — remain high.</p>\n\n<p><strong>Medical care services: +3.6%.</strong> Healthcare costs continue to rise as hospitals and clinics catch up from years of depressed pricing during the pandemic era.</p>\n\n<div class='highlight-box'><h4>US CPI — May 2026</h4>\nHeadline CPI: +4.2% year-on-year<br>\nCore CPI (ex-food & energy): +2.9%<br>\nShelter: +3.4%<br>\nTransport services: +4.1%<br>\nMedical care: +3.6%<br>\nFed's inflation target: 2.0%<br>\nNext Fed meeting: July 29–30, 2026</div>\n\n<h2>Why the Fed Can't Cut Right Now</h2>\n<p>The Federal Reserve has been trying to walk a tightrope since late 2025. After raising rates aggressively to fight the 2022–2023 inflation surge, it had started cutting — carefully, slowly — as inflation fell toward the 2% target. But with US inflation back at 4.2%, that tightrope just got a lot narrower.</p>\n\n<p>The Fed's mandate is straightforward: keep inflation at 2% and maximise employment. Right now, employment is strong (172,000 new jobs in May), but inflation is running twice the target. Cutting rates in this environment would risk re-accelerating price pressures. So the Fed will hold — probably for months.</p>\n\n<p>Fed Chair Jerome Powell has been explicit: the central bank wants to see \"sustained progress\" toward 2% before further cuts. With May's data going the wrong direction, that progress is not materialising.</p>\n\n<h2>The Chain Reaction to India</h2>\n<p>When the Fed holds rates at elevated levels, a set of consequences flows through to India like dominoes. US Treasuries continue offering 5%+ returns with essentially no risk. This makes US bonds look attractive compared to Indian stocks, which carry currency risk, political risk, and liquidity risk. Global fund managers — especially those managing large pension funds and endowments — allocate more to US bonds and less to Indian equities.</p>\n\n<p>This is already visible in India's FII (Foreign Institutional Investor) data. Foreigners have pulled over ₹2.67 lakh crore from Indian stocks in 2026. That selling pressure keeps the rupee weak (near 95 to the dollar) and limits the Nifty's ability to rally even when domestic fundamentals are decent.</p>\n\n<p>There's also an indirect impact through the RBI. When the Fed holds rates high, the RBI faces a tricky choice: if it cuts rates aggressively while the Fed holds, the interest rate differential between India and the US narrows. That makes Indian bonds less attractive to foreign investors, which can weaken the rupee further. So the Fed's decision to hold constrains the RBI's room to cut as well.</p>\n\n<h2>When Will This Change?</h2>\n<p>The US CPI for June will be released in mid-July. If that number shows inflation falling back toward 3–3.5%, markets will begin pricing in a September Fed cut again, which would be positive for Indian markets and the rupee. If June CPI stays elevated, the pain extends.</p>\n\n<p>The wildcard, as always, is oil. A significant fall in crude prices — which could happen if a Middle East ceasefire emerges — would take pressure off the transport and energy components of US CPI, potentially bringing the headline number down faster than expected. The same geopolitical variable that's hurting India's markets directly (oil-driven crash) is also indirectly causing pain through its effect on US inflation and Fed policy.</p>\n\n<p>Everything, right now, traces back to that narrow strait between Iran and Oman.</p>",
+      "glossary": [
+        {
+          "term": "Consumer Price Index (CPI)",
+          "definition": "A measure of inflation that tracks the average change in prices paid by consumers for a basket of goods and services — food, housing, transport, healthcare, clothing, etc."
+        },
+        {
+          "term": "Core CPI",
+          "definition": "CPI excluding food and energy prices, which are volatile. Central banks often track 'core' inflation to get a clearer picture of underlying price trends."
+        },
+        {
+          "term": "Federal Reserve (The Fed)",
+          "definition": "America's central bank that controls US interest rates. Its decisions ripple through global markets because the US dollar is the world's reserve currency."
+        },
+        {
+          "term": "US Treasuries",
+          "definition": "US government bonds considered virtually risk-free. When they offer 5%+ interest, global investors prefer them over riskier investments in emerging markets like India."
+        },
+        {
+          "term": "Interest Rate Differential",
+          "definition": "The gap between interest rates in two countries. A wider gap (India's rates much higher than the US) attracts foreign capital into India. A narrowing gap reduces that attraction."
+        },
+        {
+          "term": "Shelter Inflation",
+          "definition": "The component of CPI that measures changes in rent and home prices. It's the largest single category in the US CPI basket and tends to be the stickiest (slowest to fall) component of inflation."
+        }
+      ],
+      "sources": [
+        {
+          "name": "US BLS — Consumer Price Index May 2026",
+          "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+        },
+        {
+          "name": "Trading Economics — US Inflation Rate",
+          "url": "https://tradingeconomics.com/united-states/inflation-cpi"
+        },
+        {
+          "name": "Share India — FII Outflows 2026",
+          "url": "https://www.shareindia.com/knowledge-center/market-insight/fii-outflows-in-india-2026-reasons-impact-on-stock-market-investor-strategy"
+        }
+      ]
+    },
+    {
+      "id": "art-038",
+      "title": "ECB Hikes Rates for the First Time Since 2023: What It Means When Europe Goes Against the World",
+      "slug": "ecb-rate-hike-june-11-2026-iran-war-europe-inflation",
+      "date": "2026-06-11",
+      "category": "Global Markets",
+      "readTime": "6 min",
+      "excerpt": "The European Central Bank raised interest rates 25 basis points to 2.25% today — its first hike in three years. The reason: the Iran war has pushed European energy costs to painful levels, re-igniting inflation that the ECB thought it had defeated. Today's decision sends ripples through global bond markets, the euro, and India's export story.",
+      "tags": [
+        "ECB",
+        "rate hike",
+        "Europe",
+        "inflation",
+        "euro",
+        "Iran war",
+        "global markets",
+        "interest rates"
+      ],
+      "content": "<p>In a decision that marks a striking reversal from just six months ago, the European Central Bank (ECB) raised its key interest rate by 25 basis points to 2.25% on Thursday, June 11, 2026 — the first rate hike in Europe since 2023. ECB President Christine Lagarde, addressing journalists in Frankfurt, cited the Iran war's impact on energy prices as the central driver: \"The conflict in the Middle East has materially altered the inflation trajectory for the Eurozone. We have a responsibility to anchor price stability.\"</p>\n\n<p>Markets had priced in a near-100% probability of this hike, but the confirmation still moved markets. The euro strengthened, European bond yields rose, and the ripple effects were felt from Wall Street to Dalal Street.</p>\n\n<h2>The Stunning Reversal</h2>\n<p>To appreciate how dramatic this moment is, you need the context. In 2024, the ECB was <em>cutting</em> rates. European inflation had fallen back toward the 2% target after the brutal 2022–2023 surge. European growth was fragile, Germany was in recession, and the ECB's job was to stimulate, not restrict. Rates were being carefully lowered.</p>\n\n<p>Then the 2026 Iran war changed everything. European energy prices — particularly natural gas — spiked sharply. Despite years of work to diversify away from Russian energy after 2022, Europe still depends heavily on Middle Eastern energy transit routes. Higher energy costs pushed factory costs up, transport costs up, and heating bills up. By April, Eurozone inflation had climbed to 2.8%, well above the 2% target. Germany saw inflation hit 3.1%. The ECB had run out of time to wait.</p>\n\n<div class='highlight-box'><h4>ECB Decision — June 11, 2026</h4>\nRate decision: +25 basis points<br>\nNew deposit rate: 2.25%<br>\nFirst hike since: 2023<br>\nEurozone CPI (latest): 3.0% average (2026 forecast)<br>\nECB inflation target: 2.0%<br>\nNext ECB meeting: September 2026<br>\nMarkets pricing: One more hike in September</div>\n\n<h2>How the ECB Rate Hike Affects Europe's Households</h2>\n<p>For the millions of Europeans with variable-rate mortgages — particularly common in Spain, Portugal, and Ireland — this hike means higher monthly payments. A 25bps increase on a €300,000 mortgage increases monthly payments by roughly €40–60. That may sound small, but with three expected hikes totalling 75bps this year, the cumulative effect on consumer spending across the Eurozone is significant.</p>\n\n<p>For European businesses already squeezed by higher energy costs, more expensive borrowing adds a second layer of pressure. Small businesses that rely on credit for working capital face a squeeze. The ECB is consciously trading short-term economic pain (slower growth, higher borrowing costs) for longer-term price stability.</p>\n\n<h2>The India Connection: Exports and the Euro</h2>\n<p>The ECB's decision has specific implications for India, primarily through two channels:</p>\n\n<p><strong>The export channel:</strong> Europe is India's second-largest trading partner. Indian exports to Europe — IT services, pharmaceuticals, gems and jewellery, textiles, chemicals — together represent hundreds of billions of dollars in annual trade. If ECB rate hikes slow European economic growth and reduce consumer and corporate spending, European buyers will purchase less from India. IT companies with significant European revenue exposure (Infosys, Wipro, TCS all have large European client bases) face softer demand.</p>\n\n<p><strong>The currency and capital flow channel:</strong> When the ECB hikes rates, the euro typically strengthens. A stronger euro means European investors' money buys less when they invest in dollar or rupee-denominated assets. This can reduce the attractiveness of Indian markets to European institutional investors on the margin. Additionally, higher European yields compete with Indian bonds for global fixed-income capital.</p>\n\n<h2>The Bigger Story: Three Central Banks, Three Directions</h2>\n<p>June 2026 is a remarkable moment in global financial history. The world's three largest central banks are moving in three different directions simultaneously: The US Fed is holding rates steady (unable to cut because inflation is 4.2%). India's RBI just cut rates and is trying to support growth. And now Europe's ECB is hiking rates to fight a new inflation surge.</p>\n\n<p>This divergence reflects how differently the Iran war has hit different economies. The US is affected through inflation (higher fuel costs feeding into CPI). India is affected through its import bill and currency. Europe is affected through its energy costs and inflation. Same geopolitical shock, three different economic manifestations, three different policy responses.</p>\n\n<p>What unites them all: the Strait of Hormuz remains the most important economic chokepoint on earth, and until the situation stabilises, central bank policy will remain reactive and uncertain.</p>",
+      "glossary": [
+        {
+          "term": "European Central Bank (ECB)",
+          "definition": "The central bank for the 20 countries that use the euro as their currency. Like India's RBI controls the rupee and Indian rates, the ECB controls euro-area interest rates and monetary policy."
+        },
+        {
+          "term": "Basis Points (bps)",
+          "definition": "1 basis point = 0.01%. A 25bps hike means the rate rises by 0.25 percentage points — for example, from 2.00% to 2.25%."
+        },
+        {
+          "term": "Deposit Rate",
+          "definition": "The interest rate the ECB pays to commercial banks that park their money with it overnight. It's the ECB's key benchmark rate — the equivalent of the RBI's repo rate."
+        },
+        {
+          "term": "Variable-Rate Mortgage",
+          "definition": "A home loan where the interest rate changes based on a benchmark (like the ECB's deposit rate). When the benchmark rises, monthly payments rise automatically. Common in southern Europe."
+        },
+        {
+          "term": "Monetary Policy Divergence",
+          "definition": "When different countries' central banks move interest rates in opposite directions at the same time. This creates complex effects on exchange rates and capital flows globally."
+        },
+        {
+          "term": "Working Capital",
+          "definition": "The money a business uses to cover its day-to-day operations — paying suppliers, covering wages, managing inventory. Usually funded by short-term bank credit, so higher rates make it more expensive."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC — ECB Hikes Interest Rates June 11, 2026",
+          "url": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html"
+        },
+        {
+          "name": "Euronews — ECB Raises Rates June 11, 2026",
+          "url": "https://www.euronews.com/business/2026/06/11/ecb-raises-interest-rates-for-the-first-time-in-three-years-as-iran-war-fuels-inflation"
+        },
+        {
+          "name": "Traders Agency — ECB Rate Decision June 2026",
+          "url": "https://tradersagency.com/blog/ecb-rate-decision-june-2026-hike-iran-energy"
+        }
+      ]
+    },
+    {
+      "id": "art-039",
+      "title": "India's Inflation Fell to 3.93% in May — Good News With an Asterisk",
+      "slug": "india-cpi-inflation-may-2026-393-food-oil-rbi",
+      "date": "2026-06-12",
+      "category": "Indian Economy",
+      "readTime": "5 min",
+      "excerpt": "India's retail inflation came in at 3.93% for May 2026 — below the RBI's 4% target for the first time in months, and released today by the government. But the food inflation at 4.78% and rising fuel costs mean this number could be short-lived. Here's the full picture.",
+      "tags": [
+        "CPI inflation",
+        "India inflation",
+        "RBI",
+        "food prices",
+        "oil prices",
+        "monetary policy"
+      ],
+      "content": "<p>The Ministry of Statistics and Programme Implementation (MoSPI) released India's Consumer Price Index (CPI) data for May 2026 today — and the headline number, 3.93%, looks reassuring at first glance. It's below the RBI's 4% target. It suggests that the rate cuts the RBI made earlier in 2026 haven't triggered an inflationary spiral. And it's the first sub-4% reading in several months.</p>\n\n<p>But dig one layer deeper, and this number comes with a significant asterisk — one that's written in the language of oil prices and seasonal food patterns.</p>\n\n<h2>What Does 3.93% Actually Mean?</h2>\n<p>India's CPI measures how much more expensive a fixed \"basket\" of goods and services costs compared to the same time last year. The basket includes food (the largest component, at ~40% of the total), housing, fuel, clothing, healthcare, and education.</p>\n\n<p>When the number is 3.93%, it means the average Indian household is spending 3.93% more in May 2026 than they were in May 2025 for the same set of goods. For a family spending ₹30,000 per month on essentials, that's roughly ₹1,179 more per month compared to a year ago.</p>\n\n<div class='highlight-box'><h4>India CPI — May 2026</h4>\nHeadline CPI: 3.93% year-on-year<br>\nPrevious month (April 2026): 3.5%<br>\nFood inflation (CFPI): 4.78%<br>\nRBI's inflation target: 4% (with ±2% band)<br>\nRBI's inflation forecast for FY27: 5.1% (revised up)<br>\nData released: June 12, 2026</div>\n\n<h2>The Food Problem</h2>\n<p>The most concerning number within today's data is the Consumer Food Price Index (CFPI) — food inflation specifically — which came in at 4.78%. This is higher than the headline number because food inflation is being driven by specific pressures that are hard to control quickly.</p>\n\n<p>Seasonal vegetable prices have risen sharply heading into the summer months, particularly tomatoes, onions, and potatoes — the three most watched food items in India's inflation calculations (colloquially called \"TOP\" inflation). Supply disruptions from unseasonal weather patterns earlier in the year are still working their way through the supply chain.</p>\n\n<p>Food is the component of inflation that matters most to ordinary Indians, especially those in lower income brackets who spend 50-60% of their income on food. A 4.78% food inflation rate means a family spending ₹15,000 a month on groceries is now spending roughly ₹716 more than a year ago — just on food.</p>\n\n<h2>The Fuel Wildcard</h2>\n<p>Here's where the asterisk gets larger. The fuel component of India's CPI has been artificially suppressed because the government has frozen petrol and diesel prices — absorbing losses on OMCs rather than passing oil price increases to consumers. If the government eventually allows a price hike (as seems increasingly likely given the scale of OMC losses), fuel inflation would jump overnight, pulling the headline CPI number significantly higher.</p>\n\n<p>The RBI is aware of this. Its revised inflation forecast for FY27 — raised from 4.6% to 5.1% at the June 5 policy meeting — already accounts for the likelihood that fuel prices will eventually be adjusted. In other words, the RBI doesn't believe today's 3.93% represents the full inflation picture.</p>\n\n<h2>What This Means for Interest Rates</h2>\n<p>Today's CPI number is good enough to keep the RBI on hold at 5.25% — neither forcing an emergency hike nor opening the door to another cut immediately. The RBI will watch the next two or three months of data carefully before deciding its next move.</p>\n\n<p>The ideal scenario for the RBI: oil prices fall as Middle East tensions ease, food prices moderate as the monsoon brings normal rainfall and restores agricultural supply, and the next two CPI readings come in below 4%. That would give the RBI room to cut again, supporting growth in a year where GDP projections have already been trimmed to 6.6%.</p>\n\n<p>The risk scenario: a fuel price hike in July or August, combined with persistent food inflation, pushes CPI to 5%+. That closes the door on further rate cuts and could even force the RBI to hike. That's not the base case, but it's on the table.</p>\n\n<p>Today's 3.93% is a relief — but it's a fragile one.</p>",
+      "glossary": [
+        {
+          "term": "CPI (Consumer Price Index)",
+          "definition": "India's primary inflation measure, tracking price changes of a basket of goods and services consumed by households. Released monthly by MoSPI (Ministry of Statistics)."
+        },
+        {
+          "term": "CFPI (Consumer Food Price Index)",
+          "definition": "The food-only component of India's CPI. Since food is ~40% of the CPI basket and highly volatile, CFPI is closely watched to understand inflation's impact on ordinary households."
+        },
+        {
+          "term": "MoSPI",
+          "definition": "Ministry of Statistics and Programme Implementation — the government body that collects and publishes India's key economic data including GDP, CPI, and IIP."
+        },
+        {
+          "term": "RBI Inflation Target",
+          "definition": "The RBI targets 4% CPI inflation with a tolerance band of ±2% (so 2-6% is acceptable). Below 4% gives room to cut rates; above 6% could force rate hikes."
+        },
+        {
+          "term": "TOP Inflation",
+          "definition": "Refers to Tomato, Onion, and Potato — three vegetables that have an outsized influence on India's food inflation due to their large share of household spending and volatile supply."
+        },
+        {
+          "term": "Monetary Policy Transmission",
+          "definition": "The process by which changes in RBI's repo rate eventually affect actual lending rates, consumer spending, and inflation in the economy. This lag typically takes 6–18 months."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Univest — India Inflation May 2026 CPI 4%",
+          "url": "https://univest.in/blogs/india-inflation-may-2026-reuters-poll-cpi-4-percent-food-fuel"
+        },
+        {
+          "name": "Dainik Jagran English — May 2026 CPI Hits 4% Target",
+          "url": "https://english.dainikjagranmpcg.com/special-news/may-2026-cpi-india-inflation-likely-hits-4-target/article-20063"
+        },
+        {
+          "name": "CNBC — India RBI Rate, GDP, Inflation June 2026",
+          "url": "https://www.cnbc.com/2026/06/05/india-rbi-rate-gdp-inflation.html"
+        }
+      ]
+    },
+    {
+      "id": "art-040",
+      "title": "Foreigners Have Pulled ₹2.67 Lakh Crore From India in 2026. Here's Why — and Whether to Panic",
+      "slug": "fii-outflows-india-2026-267-lakh-crore-reasons-impact",
+      "date": "2026-06-13",
+      "category": "Indian Markets",
+      "readTime": "7 min",
+      "excerpt": "Foreign institutional investors have sold more than ₹2.67 lakh crore worth of Indian stocks in 2026 — one of the largest sustained selloffs in recent memory. In the first week of June alone, FIIs pulled out ₹43,000 crore. Understanding who these investors are, why they're leaving, and whether it matters for ordinary Indians is essential right now.",
+      "tags": [
+        "FII",
+        "FPI",
+        "foreign investors",
+        "capital outflows",
+        "Nifty",
+        "rupee",
+        "US dollar",
+        "emerging markets"
+      ],
+      "content": "<p>₹2.67 lakh crore. That's the amount foreign portfolio investors (FPIs, also called FIIs) have pulled out of Indian stocks in 2026. To put that number in context: it's roughly equivalent to the annual GDP of a mid-sized Indian state, or the combined market capitalisation of several large Indian companies wiped off Indian exchanges in a matter of months.</p>\n\n<p>And in just the first week of June 2026, as the Israel-Iran conflict escalated, FIIs pulled out an additional ₹43,000 crore in a single week — one of the sharpest weekly outflows in years.</p>\n\n<p>So who are these foreign investors, why are they leaving, and what does it mean for you?</p>\n\n<h2>Who Are FIIs and Why Do They Matter?</h2>\n<p>Foreign Institutional Investors (FIIs) — officially called Foreign Portfolio Investors (FPIs) in India's regulatory framework — are large global fund managers: pension funds managing money for teachers and nurses in the US and UK, insurance companies, hedge funds, sovereign wealth funds (like Singapore's GIC or Norway's Government Pension Fund), and mutual funds sold to global retail investors.</p>\n\n<p>They hold approximately 17–20% of the total market capitalisation of Indian listed companies. When they buy, markets rise. When they sell simultaneously, markets fall — because their collective size dwarfs domestic institutional buying in most short-term windows. Understanding FII behavior is the single most important variable for predicting short-term Indian market direction.</p>\n\n<div class='highlight-box'><h4>FII Activity — 2026</h4>\nTotal FII outflows (2026 YTD): ₹2.67 lakh crore<br>\nWeek 1 June outflows: ₹43,000 crore<br>\nJune 12 single-day: ₹1,082 crore net outflow<br>\nFII holding in Indian equities: ~18% of market cap<br>\nRupee vs Dollar: ~95 (near historic low)<br>\nDomestic DII buying (offsetting): Strong but not fully compensating</div>\n\n<h2>Why Are FIIs Leaving India in 2026?</h2>\n<p>The reasons are multi-layered, and importantly, most of them aren't specific to India — they're about global capital allocation shifting.</p>\n\n<p><strong>1. High US interest rates (the most important reason):</strong> US Treasury bonds — completely safe, government-backed — are yielding over 5%. For a pension fund that needs predictable returns, earning 5% risk-free in the US is far more attractive than taking currency risk, political risk, and liquidity risk in an emerging market to earn perhaps 8–10%. The \"risk premium\" India needs to offer to attract capital has shrunk.</p>\n\n<p><strong>2. The AI investment mega-trend:</strong> Global institutional investors are dramatically overweighting US technology stocks driven by the artificial intelligence boom. Companies like NVIDIA, Microsoft, Google, and Meta have seen massive capital inflows. That capital has to come from somewhere — and some of it has come from reducing EM (emerging market) allocations.</p>\n\n<p><strong>3. The Iran war and risk sentiment:</strong> Geopolitical instability creates risk-off sentiment. In risk-off environments, capital flows to \"safe\" assets — US Treasuries, gold, the Swiss franc. Emerging market equities are among the first assets sold.</p>\n\n<p><strong>4. India's premium valuation:</strong> Indian markets have historically traded at a premium to other emerging markets — which is justified by India's growth, governance improvements, and demographic tailwinds. But at current valuations (Nifty P/E ratio around 22-23x), some global investors feel the premium is too high relative to the risks posed by oil prices, the slowing GDP growth forecast (6.6%), and rupee weakness.</p>\n\n<h2>Who Is Buying What FIIs Are Selling?</h2>\n<p>This is where the story gets interesting. For every FII seller, there's a buyer — and increasingly, that buyer is domestic. Domestic Institutional Investors (DIIs) — mutual funds, insurance companies like LIC, pension funds — have been absorbing a significant portion of FII selling.</p>\n\n<p>The scale of SIP flows from ordinary Indian retail investors into mutual funds has created a structural domestic bid that simply didn't exist 10 years ago. Monthly SIP flows now exceed ₹22,000–23,000 crore. This money consistently buys Indian equities regardless of what foreigners are doing. It's one reason the Nifty has held up better than it otherwise might have given the scale of FII outflows.</p>\n\n<h2>Should You Be Worried?</h2>\n<p>For long-term domestic investors, the answer is a nuanced no — with caveats. FII outflows create short-term pain (markets fall, rupee weakens) but don't change India's long-term growth fundamentals. India will still grow at 6%+ for the foreseeable future. Corporate earnings will still compound. The infrastructure buildout, digitisation, and formalisation of the economy continue regardless of what global fund managers in New York decide this quarter.</p>\n\n<p>The situation to watch: if FII outflows are sustained for 12+ months at this pace, it could create a more persistent drag on the rupee, which feeds into inflation, which constrains RBI rate cuts, which slows growth. That feedback loop is the real risk — not any single week's outflow number.</p>\n\n<p>The medium-term outlook for FII flows will hinge on three variables: when the Fed starts cutting again (likely only if US inflation falls to ~3%), whether the Middle East situation stabilises, and whether India's corporate earnings growth re-accelerates. All three are plausible within 12–18 months. For patient investors, FII-driven selloffs in fundamentally sound markets have historically been opportunities, not threats.</p>",
+      "glossary": [
+        {
+          "term": "FII / FPI (Foreign Institutional/Portfolio Investors)",
+          "definition": "Large global fund managers — pension funds, hedge funds, sovereign wealth funds — that invest in Indian stocks. Their buying and selling has a major short-term impact on Indian markets."
+        },
+        {
+          "term": "DII (Domestic Institutional Investors)",
+          "definition": "Indian-based institutions that invest in markets — mutual funds, LIC (Life Insurance Corporation), pension funds. They've been absorbing FII selling and act as a stabilising force."
+        },
+        {
+          "term": "Risk-Off Sentiment",
+          "definition": "When global investors become cautious and sell risky assets (stocks, emerging market bonds) to buy safer ones (US Treasuries, gold, cash). Triggered by geopolitical events, recession fears, etc."
+        },
+        {
+          "term": "SIP (Systematic Investment Plan)",
+          "definition": "Monthly investment in mutual funds by retail investors. India now sees ₹22,000+ crore per month in SIP flows, creating a consistent domestic buyer in the market."
+        },
+        {
+          "term": "Market Capitalisation",
+          "definition": "The total value of all a company's shares. India's total stock market cap is roughly $4 trillion — FIIs hold about 18% of this, making their decisions hugely impactful."
+        },
+        {
+          "term": "P/E Ratio (Price-to-Earnings)",
+          "definition": "A valuation measure. If a stock trades at ₹22 and earns ₹1 per share, the P/E is 22x. Higher P/E means the market is paying more for each rupee of earnings — either because growth expectations are high or valuations are stretched."
+        },
+        {
+          "term": "Risk Premium",
+          "definition": "The extra return investors demand for taking on risk. If US bonds return 5% risk-free, an emerging market investment must offer significantly more to compensate for the added risks of investing in it."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Online Indian News — FPI Outflows Hit Rs 2.67 Lakh Crore",
+          "url": "https://www.onlineindiannews.com/fpi-outflows-hit-rs-2-67-lakh-crore-in-2026-amid-foreign-selling/"
+        },
+        {
+          "name": "Share India — FII Outflows in India 2026",
+          "url": "https://www.shareindia.com/knowledge-center/market-insight/fii-outflows-in-india-2026-reasons-impact-on-stock-market-investor-strategy"
+        },
+        {
+          "name": "Multibagg AI — India FII Flows June 2026",
+          "url": "https://www.multibagg.ai/market-pulse/articles/india-fii-flows-em-valuation-cmqbsct4l01rks60joxx6bf8i"
+        }
+      ]
+    },
+    {
+      "id": "art-041",
+      "title": "The Monsoon Is India's Real Budget: Why This Year's Rainfall Could Be the Most Important Economic Event of 2026",
+      "slug": "india-monsoon-2026-economic-impact-inflation-agriculture-markets",
+      "date": "2026-06-14",
+      "category": "Indian Economy",
+      "readTime": "6 min",
+      "excerpt": "India's southwest monsoon has arrived — and the IMD forecasts an above-normal rainfall season. In a year when food inflation is 4.78%, GDP growth has been cut to 6.6%, and oil prices are squeezing household budgets, a good monsoon could be the single most powerful economic force working in India's favour.",
+      "tags": [
+        "monsoon",
+        "Indian economy",
+        "agriculture",
+        "food inflation",
+        "rural economy",
+        "IMD",
+        "kharif crop"
+      ],
+      "content": "<p>As geopolitical crises, oil price shocks, and interest rate drama dominate financial news, there's a quieter, more fundamental story unfolding across India's sky: the southwest monsoon has arrived, and this year's rainfall could determine the economic trajectory of an entire country far more decisively than any central bank meeting.</p>\n\n<p>The India Meteorological Department (IMD) has forecast an above-normal monsoon in 2026, with the all-India season rainfall expected at 106% of the Long Period Average (LPA). That's a significant upside signal. And in an economy where agriculture directly employs 44% of the workforce and indirectly influences the spending power of over 600 million rural Indians, an above-normal monsoon is not just a weather event — it's an economic stimulus package that no government budget could replicate.</p>\n\n<h2>Why the Monsoon Is India's Real Budget</h2>\n<p>India's Union Budget gets all the attention — the Finance Minister's speech, the tax changes, the infrastructure allocations. But experienced economists will quietly tell you that the monsoon forecast matters more for most Indians than anything in the Budget.</p>\n\n<p>Here's why: agriculture contributes about 15–18% of India's GDP directly, but its influence extends far beyond that number. A good monsoon means good kharif (summer) crop yields — rice, pulses, oilseeds, cotton, sugar. Good yields mean lower food prices. Lower food prices mean India's CPI inflation stays under control. Controlled inflation means the RBI has room to cut interest rates. Lower interest rates stimulate investment and consumption across the entire economy.</p>\n\n<p>And on the flip side: a bad monsoon in 1987 contributed to a 3.7% contraction in agricultural output and added 2–3 percentage points to inflation. A deficient monsoon in 2009 caused food inflation to spike to 18%+, wiping out the purchasing power of hundreds of millions of rural and urban poor alike.</p>\n\n<div class='highlight-box'><h4>IMD Monsoon Forecast — 2026</h4>\nSeason forecast: 106% of LPA (above normal)<br>\nNormal range: 96%–104% of LPA<br>\nAbove normal: >104% of LPA<br>\nKey kharif crops: Rice, pulses, oilseeds, cotton, sugarcane<br>\nAgricultural contribution to GDP: ~17%<br>\nShare of workforce in agriculture: ~44%<br>\nMonsoon onset in Kerala: Normal (June 1–5 window)</div>\n\n<h2>What an Above-Normal Monsoon Means for Inflation</h2>\n<p>India's food inflation in May 2026 was 4.78% — driven partly by seasonal vegetable shortages and partly by the oil-driven cost increases for agricultural inputs (fertilisers, irrigation pumping, transport). A strong monsoon in June–September will replenish water reservoirs, boost crop production, and bring down food prices in the October–December quarter when kharif crops hit markets.</p>\n\n<p>The categories most sensitive to monsoon performance are: vegetables (especially tomatoes, onions, potatoes), pulses (tur dal, chana dal — a protein staple for hundreds of millions), oilseeds (which affects edible oil prices), and cereals (rice and wheat). A good monsoon typically brings these prices down by 10–20% in the October quarter compared to monsoon-deficit years.</p>\n\n<p>For the RBI, a strong monsoon is the best possible gift: it reduces food inflation without any policy action, gives the RBI more room to cut interest rates, and supports rural income and domestic consumption simultaneously.</p>\n\n<h2>The Rural Economy Story</h2>\n<p>India's rural economy has been under stress in recent years — farm income growth has lagged urban income growth, and rural consumption has been sluggish. A good monsoon changes this dynamic fundamentally. When farmers earn more from their crops, they spend more on motorcycles, consumer durables, FMCG products (soap, shampoo, biscuits), and construction materials for their homes.</p>\n\n<p>Companies with strong rural distribution — Hero MotoCorp, Mahindra & Mahindra, Hindustan Unilever, Britannia, Pidilite — tend to see their stocks re-rate positively ahead of a good monsoon season as investors anticipate higher rural demand. This is a well-established seasonal pattern in Indian markets.</p>\n\n<h2>What Could Go Wrong?</h2>\n<p>IMD forecasts, while increasingly accurate, are not perfect. An above-normal forecast doesn't guarantee even distribution across the country. Excess rainfall in some regions can destroy crops through flooding (as happened in parts of Maharashtra and Kerala in 2023), while deficient rainfall in other regions like Rajasthan or parts of UP can still cause localised food shortages.</p>\n\n<p>The bigger risk in 2026: even if the monsoon is good, structural fuel price pressures from oil at $93/barrel will keep transport and logistics costs high, limiting how much the good harvest actually brings down market prices for consumers. The oil price problem doesn't get solved by good rainfall.</p>\n\n<p>But on balance: in a year of global economic stress, oil shocks, and growth downgrades, India's 2026 monsoon forecast is the most genuinely good economic news on the table. The skies, for once, are working in India's favour.</p>",
+      "glossary": [
+        {
+          "term": "Southwest Monsoon",
+          "definition": "India's main rainy season, running June–September, bringing roughly 70–80% of India's annual rainfall. It travels from Kerala northward across the country. Critical for agriculture, water reservoirs, and hydropower."
+        },
+        {
+          "term": "IMD (India Meteorological Department)",
+          "definition": "India's national weather forecasting agency. Its seasonal monsoon forecast (released in April and June) is one of the most watched economic indicators in the country."
+        },
+        {
+          "term": "LPA (Long Period Average)",
+          "definition": "The average rainfall over the past 50 years, used as a baseline. 100% LPA = exactly average. IMD defines 'normal' as 96–104% LPA, 'above normal' as >104% LPA."
+        },
+        {
+          "term": "Kharif Crops",
+          "definition": "Summer crops planted with the onset of the monsoon and harvested in September–October. Key kharif crops in India include rice, maize, pulses, cotton, sugarcane, and oilseeds."
+        },
+        {
+          "term": "Rabi Crops",
+          "definition": "Winter crops planted after the monsoon (October–November) and harvested in March–April. Includes wheat, mustard, gram, and barley. Depends on residual soil moisture and irrigation."
+        },
+        {
+          "term": "Rural Consumption",
+          "definition": "Spending by India's rural population (~65% of the total population). Rural consumption is heavily influenced by farm incomes, which are directly tied to monsoon performance. FMCG and two-wheeler companies watch rural consumption closely."
+        },
+        {
+          "term": "FMCG (Fast Moving Consumer Goods)",
+          "definition": "Daily-use consumer products: soap, shampoo, toothpaste, biscuits, packaged food. Companies like HUL, ITC, Britannia, Dabur depend heavily on rural demand, which surges in good monsoon years."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC — India RBI GDP Inflation June 2026",
+          "url": "https://www.cnbc.com/2026/06/05/india-rbi-rate-gdp-inflation.html"
+        },
+        {
+          "name": "Univest — India Inflation May 2026",
+          "url": "https://univest.in/blogs/india-inflation-may-2026-reuters-poll-cpi-4-percent-food-fuel"
+        },
+        {
+          "name": "Trading Economics — India Indicators",
+          "url": "https://tradingeconomics.com/india/indicators"
+        }
+      ]
+    },
+    {
+      "id": "art-042",
+      "title": "India's Exports Hit a Record $45 Billion in May — But the Trade Deficit Is Growing Faster",
+      "slug": "india-trade-deficit-may-2026-record-exports-imports",
+      "date": "2026-06-15",
+      "category": "Indian Economy",
+      "readTime": "6 min",
+      "excerpt": "India's merchandise exports hit a record $45.2 billion in May 2026. That's a number to celebrate. But imports surged even harder — to $73.4 billion — pushing the trade deficit to $10.51 billion. Released today by the Commerce Ministry, this data tells a complex story about India's place in global trade.",
+      "tags": [
+        "trade deficit",
+        "exports",
+        "imports",
+        "India trade",
+        "current account",
+        "rupee",
+        "oil imports"
+      ],
+      "content": "<p>India's commerce ministry released May 2026 trade data today, June 15, and the headline number is genuinely impressive: merchandise exports hit $45.2 billion — a record high, reflecting double-digit growth over May 2025. Indian goods are finding buyers globally at an unprecedented pace.</p>\n\n<p>But the same data contains a less comfortable truth: imports grew even faster, reaching $73.4 billion. The gap — the trade deficit — widened to $10.51 billion, up from $6.79 billion in May 2025. In one data release, India's trade story manages to be both a success story and a warning sign simultaneously.</p>\n\n<h2>The Good News: Why Exports Hit a Record</h2>\n<p>India's export surge in May reflects several converging trends that have been building for years. Engineering goods, petroleum products (refined from imported crude and re-exported), pharmaceuticals, chemicals, and electronics all contributed to the record number. Including services exports — primarily software and IT services from companies like TCS, Infosys, Wipro, and thousands of smaller firms — the total export number rises to $81.96 billion, representing strong year-on-year growth.</p>\n\n<p>The strategic shift that deserves attention: India has become a major hub for electronics manufacturing under the PLI (Production Linked Incentive) scheme. Apple's iPhone assembly, expanded semiconductor packaging, and consumer electronics production are all contributing to an export mix that was barely present five years ago.</p>\n\n<div class='highlight-box'><h4>India Trade Data — May 2026</h4>\nMerchandise exports: $45.2 billion (record high)<br>\nMerchandise imports: $73.4 billion<br>\nMerchandise trade deficit: −$28.2 billion<br>\nServices exports: $36.8 billion<br>\nServices imports: $19.1 billion<br>\nOverall trade deficit (merch + services): −$10.51 billion<br>\nYear-ago deficit: −$6.79 billion</div>\n\n<h2>Why Imports Grew Even Faster</h2>\n<p>The import surge has two primary drivers — one structural and one cyclical. The structural driver: India's economy is growing, and growing economies import more. Capital goods (machinery for factories), electronic components, and industrial raw materials are all rising as India's manufacturing expands. This kind of import growth is actually a positive sign of investment activity.</p>\n\n<p>The cyclical driver: oil. With Brent crude at $93 per barrel — up roughly 40% from pre-conflict levels — India's oil import bill has ballooned. India imports roughly 5 million barrels of oil per day. At $93 per barrel, that's $465 million per day in oil imports alone — over $14 billion per month, or about 19% of total monthly imports. Every $10 rise in oil prices adds roughly $1.5 billion to India's monthly import bill. This single factor explains much of the trade deficit widening.</p>\n\n<h2>The Current Account Connection</h2>\n<p>India's trade deficit feeds directly into the Current Account Deficit (CAD) — the broadest measure of India's trade relationship with the world. A wider trade deficit means India is spending more abroad than it's earning, which must be financed by capital inflows (FDI, FPI, foreign loans). In a year when FII outflows are at ₹2.67 lakh crore, financing a large CAD becomes harder and puts downward pressure on the rupee.</p>\n\n<p>The rupee, currently trading near 95 per dollar, is partly a reflection of this: a widening trade deficit and FII outflows are both putting selling pressure on the rupee. A weaker rupee makes the oil import bill even more expensive in rupee terms (even if the dollar price of oil stays the same), creating a feedback loop that the RBI is carefully managing with its foreign exchange reserves.</p>\n\n<h2>The April–May Cumulative Picture</h2>\n<p>Looking at April–May 2026 together, India's merchandise exports rose to $88.91 billion — a 16% growth over the same period last year. That 16% growth in exports is one of the strongest two-month starts to a financial year in recent memory, driven by the diversification of India's export basket and the PLI-driven manufacturing push.</p>\n\n<p>For context: India's government has set a target of $2 trillion in total exports (merchandise + services) by 2030. At the current pace of growth, that target is increasingly achievable — but it requires oil prices to moderate, rupee stability, and continued global demand for Indian goods and services.</p>\n\n<h2>What This Means for Your Portfolio</h2>\n<p>Export-oriented sectors — IT services, pharmaceuticals, chemicals, and now electronics — tend to benefit from record export growth. But a weak rupee is already partly baking in currency tailwinds for these sectors. The bigger risk is a global demand slowdown: if US and European consumers pull back spending (due to high interest rates), Indian export growth could slow in the second half of the year.</p>\n\n<p>Import-sensitive sectors — airlines, paint companies, tyre manufacturers, and any business with high raw material imports — remain under pressure as long as oil stays elevated and the rupee is weak. For patient investors, the export success story is real and durable; the import challenge is largely cyclical and will ease when oil prices normalise.</p>",
+      "glossary": [
+        {
+          "term": "Trade Deficit",
+          "definition": "When a country imports more than it exports. India's May trade deficit of $10.51 billion means India spent $10.51 billion more on imports than it earned from exports that month."
+        },
+        {
+          "term": "Current Account Deficit (CAD)",
+          "definition": "A broader measure than trade deficit, including not just goods but also services, remittances, and investment income. It tells you if a country is a net borrower from the rest of the world."
+        },
+        {
+          "term": "PLI (Production Linked Incentive)",
+          "definition": "A government scheme that gives cash incentives to companies manufacturing in India. It has attracted massive investment in electronics, semiconductors, pharmaceuticals, and other sectors."
+        },
+        {
+          "term": "Merchandise Exports",
+          "definition": "Physical goods exported from India — engineering products, textiles, chemicals, petroleum products, gems. Distinct from 'services exports' (IT, tourism, banking)."
+        },
+        {
+          "term": "Services Exports",
+          "definition": "Revenue India earns by providing services to foreign buyers — primarily software/IT services (from companies like TCS, Infosys), but also banking, consulting, and tourism."
+        },
+        {
+          "term": "Forex Reserves",
+          "definition": "Foreign currency (mostly dollars, euros) and gold held by the RBI as a buffer. Used to defend the rupee when selling pressure is high. India's reserves are ~$685 billion — one of the world's largest."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ANI — India Trade Deficit Widens May 2026",
+          "url": "https://www.aninews.in/news/business/despite-significant-growth-in-exports-indias-trade-deficit-widens-in-may-on-rising-imports20260615150242/"
+        },
+        {
+          "name": "New Kerala — India Trade Deficit $10.51 Billion May",
+          "url": "https://www.newkerala.com/news/a/despite-significant-growth-exports-indias-trade-deficit-widens-619.htm"
+        },
+        {
+          "name": "The Statesman — India Trade Deficit $28.21 Billion",
+          "url": "https://www.thestatesman.com/business/indias-trade-deficit-recorded-at-28-21-billion-exports-grow-18-1503606076.html"
+        }
+      ]
+    },
+    {
+      "id": "art-043",
+      "title": "If the US-Iran Peace Deal Happens, Here's Exactly What Changes for India",
+      "slug": "us-iran-peace-deal-india-oil-prices-economy-impact-june-2026",
+      "date": "2026-06-16",
+      "category": "Global Current Affairs",
+      "readTime": "7 min",
+      "excerpt": "Negotiations between the US and Iran are ongoing. A deal — still far from certain — would reopen the Strait of Hormuz, crash oil prices, strengthen the rupee, allow RBI rate cuts, and potentially trigger one of the sharpest market rallies India has seen in years. Here's the full scenario map.",
+      "tags": [
+        "Iran peace deal",
+        "Strait of Hormuz",
+        "oil prices",
+        "India economy",
+        "rupee",
+        "RBI",
+        "global current affairs"
+      ],
+      "content": "<p>Somewhere between the geopolitical chaos of 2026 and a potential resolution, there is a scenario that Indian investors should understand very clearly: what happens to India's economy and markets if the US and Iran actually reach a peace deal and the Strait of Hormuz reopens to normal traffic?</p>\n\n<p>As of today, June 16, US-Iran negotiations are ongoing — fragile, uncertain, and complicated by the Israeli strikes and Iranian retaliations of the past weeks. A deal is not imminent. But it's no longer unthinkable, and the scenario analysis is worth doing carefully, because the India implications are enormous.</p>\n\n<h2>Why the Strait of Hormuz Is the Linchpin</h2>\n<p>The Strait of Hormuz — that 33-km wide waterway between Iran and Oman — is estimated to carry roughly 20% of the world's oil and about 30% of the world's Liquefied Natural Gas (LNG). During the 2026 conflict, the passage has faced disruptions ranging from Houthi attacks on shipping to direct Iranian threats to close the strait entirely. Even the threat of closure — without a full shutdown — has been enough to push Brent crude from $65 to a peak of $120+ earlier this year, now stabilised around $93.</p>\n\n<p>If a credible, durable peace deal emerges — one where Iran agrees to international monitoring of its nuclear program, the US lifts most sanctions, and normal shipping resumes through the Strait — oil markets would reprice almost immediately. Analysts estimate a sustained peace could bring Brent crude back to $65–75 per barrel within months as supply normalises and the war-premium unwinds.</p>\n\n<div class='highlight-box'><h4>Peace Deal Scenario: India Impact</h4>\nOil (current): $93/barrel → (post-deal scenario): $65–75<br>\nRupee (current): ~95/dollar → (scenario): 88–90<br>\nIndia's annual oil import saving: ~$50–60 billion<br>\nCPI inflation impact: −0.8 to −1.2 percentage points<br>\nRBI rate cuts enabled: 2–3 additional cuts possible<br>\nOMC under-recoveries: Eliminated → stock rally expected<br>\nNifty potential rally: Analysts estimate 15–20% upside</div>\n\n<h2>The Oil Math for India</h2>\n<p>India imports approximately 5 million barrels of crude oil per day. At $93 per barrel, the monthly import bill is roughly $14 billion. If oil falls to $70 — a scenario consistent with Hormuz reopening and war premium disappearing — the monthly bill drops to approximately $10.5 billion. That's a saving of $3.5 billion per month — or roughly $42 billion per year. In rupee terms at current exchange rates, that's nearly ₹4 lakh crore.</p>\n\n<p>This windfall would flow through the economy in several ways: lower inflation (fuel costs feeding directly into transport, logistics, and food supply chains), stronger rupee (reduced import demand for dollars), improved government finances (lower OMC subsidy burden), and potentially lower petrol and diesel prices for consumers.</p>\n\n<h2>The Rupee Bounce</h2>\n<p>Currently trading near 95 per dollar — close to historic lows — the rupee's weakness has two primary causes: high oil import demand for dollars, and FII outflows driven by risk-off sentiment from the geopolitical crisis. A peace deal removes both of these pressures simultaneously.</p>\n\n<p>Lower oil prices mean India needs fewer dollars to pay its import bill, reducing dollar demand. And as geopolitical risk diminishes, global investors return to emerging markets, buying Indian stocks and bonds and selling dollars for rupees. Analysts at several brokerages suggest the rupee could strengthen back to 88–90 per dollar in a credible peace scenario — a 5–7% appreciation that would meaningfully reduce imported inflation.</p>\n\n<h2>The RBI's Dream Scenario</h2>\n<p>The RBI has been in a difficult position all year: it wants to cut rates to support growth (GDP cut to 6.6%), but oil-driven inflation (forecast at 5.1% for FY27) has limited its room. A peace deal would break this constraint. Falling oil prices would bring CPI inflation down toward 3.5–4% on its own, giving the RBI space to cut rates 2–3 more times in FY27.</p>\n\n<p>Lower rates would reduce EMI costs for home loans, car loans, and business loans. They would make the equity risk premium more attractive (stocks look better compared to fixed deposits when FD rates fall). And they would support the broader economic recovery that India needs in a year when global headwinds are significant.</p>\n\n<h2>The Market Rally Scenario</h2>\n<p>Indian equity markets would rally sharply in a credible peace deal scenario. The sectors that would benefit most dramatically: OMCs (BPCL, HPCL, IOC — currently crushed by under-recoveries that would immediately disappear), airlines (IndiGo, Air India — where jet fuel is 30–40% of operating costs), paint companies (Asian Paints, Berger — crude-linked raw materials), tyre manufacturers, and consumer companies with high rural exposure (monsoon good + oil lower = rural boom).</p>\n\n<p>FIIs, who have pulled ₹2.67 lakh crore out of India in 2026, would likely return aggressively. Historically, emerging market reversals driven by macro improvement rather than earnings growth have been some of the sharpest rallies — because the money coming back is large, fast, and institutional.</p>\n\n<h2>The Probability Disclaimer</h2>\n<p>A peace deal is still an uncertain outcome. The 2026 conflict has multiple actors, complex demands, and decades of mistrust. Even an interim deal may not hold. But the scenario analysis isn't meant to predict — it's meant to prepare. For Indian investors watching markets every day and wondering why every piece of news seems negative: understanding what a positive catalyst looks like, and roughly what it would mean, is how you stay clear-headed in volatile times.</p>\n\n<p>The upside scenario for India is real, significant, and possible. It depends almost entirely on a narrow waterway 4,000 kilometres from Mumbai. Welcome to the global economy.</p>",
+      "glossary": [
+        {
+          "term": "Strait of Hormuz",
+          "definition": "A 33-km wide waterway between Iran and Oman through which 20% of the world's oil flows daily. The world's most critical energy chokepoint."
+        },
+        {
+          "term": "War Premium",
+          "definition": "The extra price built into oil or other commodities because of conflict risk. If a peace deal removes that risk, the war premium disappears and prices fall, even without a change in actual production."
+        },
+        {
+          "term": "LNG (Liquefied Natural Gas)",
+          "definition": "Natural gas cooled to liquid form for shipping. Europe and Asia import large amounts of LNG from Middle Eastern producers. Hormuz closure disrupts LNG supply as well as oil."
+        },
+        {
+          "term": "Equity Risk Premium",
+          "definition": "The extra return investors expect from stocks compared to risk-free assets (like bonds). When bond rates fall (because the RBI cuts rates), stocks become relatively more attractive."
+        },
+        {
+          "term": "Under-Recoveries",
+          "definition": "The losses Indian oil marketing companies (BPCL, HPCL, IOC) absorb when they sell fuel below their cost of production. If oil prices fall, under-recoveries shrink or disappear, dramatically improving OMC profitability."
+        },
+        {
+          "term": "Brent Crude",
+          "definition": "The global benchmark price for oil. Named after a North Sea oil field, it's used to price most internationally traded crude oil contracts."
+        },
+        {
+          "term": "Current Account",
+          "definition": "India's overall trade balance with the rest of the world. A peace deal that lowers oil prices would narrow India's current account deficit significantly, strengthening the rupee."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia — 2026 Strait of Hormuz Crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+        },
+        {
+          "name": "New Lines Institute — Iran War Impact on India",
+          "url": "https://newlinesinstitute.org/middle-east-center/the-energy-shock-u-s-israel-war-with-irans-impact-on-indian-chinese-and-global-economies/"
+        },
+        {
+          "name": "Al Jazeera — How Iran War Hit the Global Economy",
+          "url": "https://www.aljazeera.com/news/2026/3/16/the-tell-tale-signs-how-bad-has-the-iran-war-hit-the-global-economy"
+        },
+        {
+          "name": "Trading Economics — Brent Crude Oil",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "name": "CNBC — Brent Oil Above $120 After Ceasefire",
+          "url": "https://www.cnbc.com/2026/04/08/dated-brent-oil-price-iran-war-ceasefire-strait-hormuz.html"
+        },
+        {
+          "name": "Business Standard — India June 16 Trade & Markets",
+          "url": "https://www.business-standard.com/"
+        }
+      ]
+    },
+    {
       "id": "art-033",
       "title": "Sensex Crashes 924 Points Today: Why a War 4,000 km Away Hit Your Portfolio",
       "slug": "sensex-crash-june-8-2026-israel-iran-oil-price-india-markets",
