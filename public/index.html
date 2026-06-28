@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WhatsApp Chat → PDF</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">💬</span>
+      <div>
+        <div class="title">WhatsApp Chat → PDF</div>
+        <div class="subtitle">Export your chats exactly as they look on your phone</div>
+      </div>
+    </div>
+    <div id="account" class="account hidden">
+      <span id="account-name"></span>
+      <button id="logout" class="btn ghost">Log out</button>
+    </div>
+  </header>
+
+  <!-- Connect / QR screen -->
+  <section id="connect" class="connect">
+    <div class="card">
+      <h2 id="connect-title">Connecting…</h2>
+      <p id="connect-status" class="muted">Starting WhatsApp session…</p>
+      <div id="qr-wrap" class="qr-wrap hidden">
+        <img id="qr" alt="WhatsApp QR code">
+        <ol class="steps">
+          <li>Open <b>WhatsApp</b> on your phone</li>
+          <li>Tap <b>Settings → Linked Devices → Link a Device</b></li>
+          <li>Point your phone at this QR code</li>
+        </ol>
+      </div>
+      <div id="spinner" class="spinner"></div>
+    </div>
+    <p class="disclaimer">This runs locally on your machine — your chats never leave your computer.
+    Note: linking via WhatsApp Web is outside WhatsApp's official API and is used here at your own discretion.</p>
+  </section>
+
+  <!-- Main app -->
+  <main id="app" class="app hidden">
+    <aside class="sidebar">
+      <input id="search" class="search" type="search" placeholder="Search chats…">
+      <ul id="chat-list" class="chat-list"></ul>
+    </aside>
+
+    <section class="workspace">
+      <div id="empty" class="empty">
+        <p>Select a chat on the left to preview and export it.</p>
+      </div>
+
+      <div id="viewer" class="viewer hidden">
+        <div class="viewer-bar">
+          <div id="viewer-name" class="viewer-name"></div>
+          <div class="controls">
+            <label>Messages
+              <select id="limit">
+                <option value="200">Last 200</option>
+                <option value="500">Last 500</option>
+                <option value="1000" selected>Last 1000</option>
+                <option value="5000">Last 5000</option>
+                <option value="100000">All available</option>
+              </select>
+            </label>
+            <label><input type="checkbox" id="media" checked> Include images</label>
+            <label>Layout
+              <select id="mode">
+                <option value="a4" selected>A4 pages (print)</option>
+                <option value="continuous">Single long page</option>
+              </select>
+            </label>
+            <button id="refresh" class="btn ghost">Preview</button>
+            <button id="export" class="btn primary">Export PDF</button>
+          </div>
+        </div>
+        <div class="preview-wrap">
+          <div id="preview-loading" class="preview-loading hidden">Rendering chat…</div>
+          <iframe id="preview" title="Chat preview"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="app.js"></script>
+</body>
+</html>
